@@ -21,5 +21,5 @@ Run
     2> test:live().
 
 
-![罗格AI](https://github.com/dong50252409/rogue_adventure/example/rogue_ai.png "罗格AI")
-![怪物AI](https://github.com/dong50252409/rogue_adventure/example/monster_ai.png "怪物AI")
+![罗格AI](https://github.com/dong50252409/rogue_adventure/blob/master/example/rogue_ai.png)
+![怪物AI](https://github.com/dong50252409/rogue_adventure/blob/master/example/monster_ai.png)
