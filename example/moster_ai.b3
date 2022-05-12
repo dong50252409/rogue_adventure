@@ -1,0 +1,1068 @@
+{
+  "name": "moster_ai",
+  "description": "",
+  "data": {
+    "version": "0.3.0",
+    "scope": "project",
+    "selectedTree": "46d6e0d6-2ee7-47a5-8174-463d4fabcfef",
+    "trees": [
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "2a97059c-a176-484a-89fd-f2782b076880",
+        "title": "怪物AI",
+        "description": "",
+        "group": "怪物AI",
+        "root": "683e34e2-12b6-44a5-a7ba-cce2de12b1f6",
+        "properties": {},
+        "nodes": {
+          "a99af19c-1833-40e6-8fad-a9d68d540142": {
+            "id": "a99af19c-1833-40e6-8fad-a9d68d540142",
+            "name": "903b008c-2a4c-4d4f-933a-e1b360524f58",
+            "category": "tree",
+            "title": "空闲状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 36,
+              "y": -168
+            }
+          },
+          "683e34e2-12b6-44a5-a7ba-cce2de12b1f6": {
+            "id": "683e34e2-12b6-44a5-a7ba-cce2de12b1f6",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -168,
+              "y": -36
+            },
+            "children": [
+              "a99af19c-1833-40e6-8fad-a9d68d540142",
+              "a7bf9242-1515-4b0b-9587-c47049096926",
+              "29c378b4-41bd-464b-8931-1d115ae79a6d",
+              "983c61d4-bdaa-429b-8e12-44f3363a916a"
+            ]
+          },
+          "983c61d4-bdaa-429b-8e12-44f3363a916a": {
+            "id": "983c61d4-bdaa-429b-8e12-44f3363a916a",
+            "name": "a599d272-9bd7-4830-a7a6-8823867043ae",
+            "category": "tree",
+            "title": "巡逻状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 36,
+              "y": 96
+            }
+          },
+          "29c378b4-41bd-464b-8931-1d115ae79a6d": {
+            "id": "29c378b4-41bd-464b-8931-1d115ae79a6d",
+            "name": "42157c77-542b-4f73-9f6b-3867239d24e8",
+            "category": "tree",
+            "title": "追击状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 36,
+              "y": 0
+            }
+          },
+          "a7bf9242-1515-4b0b-9587-c47049096926": {
+            "id": "a7bf9242-1515-4b0b-9587-c47049096926",
+            "name": "46d6e0d6-2ee7-47a5-8174-463d4fabcfef",
+            "category": "tree",
+            "title": "攻击状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 36,
+              "y": -84
+            }
+          }
+        },
+        "display": {
+          "camera_x": 875,
+          "camera_y": 572.5,
+          "camera_z": 0.75,
+          "x": -372,
+          "y": -36
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "903b008c-2a4c-4d4f-933a-e1b360524f58",
+        "title": "空闲状态子树",
+        "description": "",
+        "group": "怪物AI",
+        "root": "8a265799-ec92-4c4f-96e2-ab840fbde4b5",
+        "properties": {},
+        "nodes": {
+          "8a265799-ec92-4c4f-96e2-ab840fbde4b5": {
+            "id": "8a265799-ec92-4c4f-96e2-ab840fbde4b5",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 36,
+              "y": 12
+            },
+            "children": [
+              "13f0f9bf-6472-4780-8df9-2292352e75dd",
+              "7752dcaf-e86d-48bc-9dee-08fd6bacc86f"
+            ]
+          },
+          "13f0f9bf-6472-4780-8df9-2292352e75dd": {
+            "id": "13f0f9bf-6472-4780-8df9-2292352e75dd",
+            "name": "cond_is_idle_state",
+            "category": "condition",
+            "title": "是空闲状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 240,
+              "y": -36
+            }
+          },
+          "7752dcaf-e86d-48bc-9dee-08fd6bacc86f": {
+            "id": "7752dcaf-e86d-48bc-9dee-08fd6bacc86f",
+            "name": "action_become_patrol_state",
+            "category": "action",
+            "title": "变为巡逻状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 240,
+              "y": 48
+            }
+          }
+        },
+        "display": {
+          "camera_x": 779,
+          "camera_y": 581.6199999973178,
+          "camera_z": 0.75,
+          "x": -168,
+          "y": 12
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "a599d272-9bd7-4830-a7a6-8823867043ae",
+        "title": "巡逻状态子树",
+        "description": "",
+        "group": "怪物AI",
+        "root": "5e4898ae-08b0-40ff-862b-0fc9afe3bd49",
+        "properties": {},
+        "nodes": {
+          "aa1f27e4-5293-4319-9a2b-ef111524d08c": {
+            "id": "aa1f27e4-5293-4319-9a2b-ef111524d08c",
+            "name": "cond_is_patrol_state",
+            "category": "condition",
+            "title": "是巡逻状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -156
+            }
+          },
+          "1e958917-da81-494f-85bd-80c2377695c5": {
+            "id": "1e958917-da81-494f-85bd-80c2377695c5",
+            "name": "action_gen_patrol_path",
+            "category": "action",
+            "title": "生成巡逻路径",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": -72
+            }
+          },
+          "db72f9be-ce82-46ea-8158-913c729e2716": {
+            "id": "db72f9be-ce82-46ea-8158-913c729e2716",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 144
+            },
+            "children": [
+              "1e958917-da81-494f-85bd-80c2377695c5",
+              "3a51c91d-f650-4e2f-bf31-fa649e0470f0"
+            ]
+          },
+          "5e4898ae-08b0-40ff-862b-0fc9afe3bd49": {
+            "id": "5e4898ae-08b0-40ff-862b-0fc9afe3bd49",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "aa1f27e4-5293-4319-9a2b-ef111524d08c",
+              "db72f9be-ce82-46ea-8158-913c729e2716"
+            ]
+          },
+          "2bb2e10d-c330-4175-9b8f-b22e1650e0f6": {
+            "id": "2bb2e10d-c330-4175-9b8f-b22e1650e0f6",
+            "name": "cond_has_guard_attack_target",
+            "category": "condition",
+            "title": "警戒范围内有目标",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1452,
+              "y": 192
+            }
+          },
+          "c85b12d1-821b-4a4c-a8a6-d468d23429c2": {
+            "id": "c85b12d1-821b-4a4c-a8a6-d468d23429c2",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 288
+            },
+            "children": [
+              "2bb2e10d-c330-4175-9b8f-b22e1650e0f6",
+              "0a6c4c3c-753f-413f-801e-55491b13896c",
+              "1f7d12c2-e823-4402-a78a-128e4eb4d1f6"
+            ]
+          },
+          "1f7d12c2-e823-4402-a78a-128e4eb4d1f6": {
+            "id": "1f7d12c2-e823-4402-a78a-128e4eb4d1f6",
+            "name": "action_become_attack_state",
+            "category": "action",
+            "title": "变为攻击状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1452,
+              "y": 372
+            }
+          },
+          "0a6c4c3c-753f-413f-801e-55491b13896c": {
+            "id": "0a6c4c3c-753f-413f-801e-55491b13896c",
+            "name": "action_confirm_attack_target",
+            "category": "action",
+            "title": "确认攻击目标",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1452,
+              "y": 288
+            }
+          },
+          "060c5ecc-f916-4a6b-8457-438304d84be3": {
+            "id": "060c5ecc-f916-4a6b-8457-438304d84be3",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 24
+            }
+          },
+          "3481076f-e2f1-4186-80ad-79bb73a435f8": {
+            "id": "3481076f-e2f1-4186-80ad-79bb73a435f8",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 372
+            },
+            "children": [
+              "c85b12d1-821b-4a4c-a8a6-d468d23429c2",
+              "c5f2896e-cd42-48d2-a788-74e3632087c7"
+            ]
+          },
+          "bf8647cb-7419-4402-9a19-8acc0b9c562a": {
+            "id": "bf8647cb-7419-4402-9a19-8acc0b9c562a",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 168
+            },
+            "children": [
+              "060c5ecc-f916-4a6b-8457-438304d84be3",
+              "94287c65-0044-4390-b32f-2a7510abd601",
+              "3481076f-e2f1-4186-80ad-79bb73a435f8"
+            ]
+          },
+          "94287c65-0044-4390-b32f-2a7510abd601": {
+            "id": "94287c65-0044-4390-b32f-2a7510abd601",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 108
+            }
+          },
+          "3a51c91d-f650-4e2f-bf31-fa649e0470f0": {
+            "id": "3a51c91d-f650-4e2f-bf31-fa649e0470f0",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 360
+            },
+            "children": [
+              "bf8647cb-7419-4402-9a19-8acc0b9c562a",
+              "4d095e58-9da1-4182-bc24-6b8c6697d91b"
+            ]
+          },
+          "4d095e58-9da1-4182-bc24-6b8c6697d91b": {
+            "id": "4d095e58-9da1-4182-bc24-6b8c6697d91b",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 552
+            }
+          },
+          "c5f2896e-cd42-48d2-a788-74e3632087c7": {
+            "id": "c5f2896e-cd42-48d2-a788-74e3632087c7",
+            "name": "Succeeder",
+            "category": "action",
+            "title": "Succeeder",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 456
+            }
+          }
+        },
+        "display": {
+          "camera_x": 343,
+          "camera_y": 419.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "42157c77-542b-4f73-9f6b-3867239d24e8",
+        "title": "追击状态子树",
+        "description": "",
+        "group": "怪物AI",
+        "root": "ac9e3264-6f60-4124-af90-7292552a5821",
+        "properties": {},
+        "nodes": {
+          "ac9e3264-6f60-4124-af90-7292552a5821": {
+            "id": "ac9e3264-6f60-4124-af90-7292552a5821",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "bc52815f-9803-4d3b-ad75-d6504cddee3f",
+              "1bd1036b-e6dd-48d8-9a64-8ebb39d79b4f"
+            ]
+          },
+          "5b1e39cb-d215-44ca-ba4a-67e766cce2e9": {
+            "id": "5b1e39cb-d215-44ca-ba4a-67e766cce2e9",
+            "name": "action_gen_follow_path",
+            "category": "action",
+            "title": "生成追击路径",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": -24
+            }
+          },
+          "bc52815f-9803-4d3b-ad75-d6504cddee3f": {
+            "id": "bc52815f-9803-4d3b-ad75-d6504cddee3f",
+            "name": "cond_is_follow_state",
+            "category": "condition",
+            "title": "是追击状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -120
+            }
+          },
+          "ace486fe-a792-4551-87b3-1edc08572ed1": {
+            "id": "ace486fe-a792-4551-87b3-1edc08572ed1",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 144
+            }
+          },
+          "1e01c4b3-201e-41d8-a579-47cbc872a3a5": {
+            "id": "1e01c4b3-201e-41d8-a579-47cbc872a3a5",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 60
+            }
+          },
+          "6cc2bc6a-be80-416a-8ec4-e7922af4cfc6": {
+            "id": "6cc2bc6a-be80-416a-8ec4-e7922af4cfc6",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 144
+            },
+            "children": [
+              "1e01c4b3-201e-41d8-a579-47cbc872a3a5",
+              "ace486fe-a792-4551-87b3-1edc08572ed1",
+              "1dc43279-0d3e-4208-a173-5eef49de9d0e"
+            ]
+          },
+          "ac6847d8-dfc2-4d45-a5cf-e0c80ae24884": {
+            "id": "ac6847d8-dfc2-4d45-a5cf-e0c80ae24884",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 240
+            },
+            "children": [
+              "6cc2bc6a-be80-416a-8ec4-e7922af4cfc6",
+              "ec04f58a-ee5a-4d9e-ab38-55b54ae72f3f"
+            ]
+          },
+          "ec04f58a-ee5a-4d9e-ab38-55b54ae72f3f": {
+            "id": "ec04f58a-ee5a-4d9e-ab38-55b54ae72f3f",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 324
+            }
+          },
+          "1bd1036b-e6dd-48d8-9a64-8ebb39d79b4f": {
+            "id": "1bd1036b-e6dd-48d8-9a64-8ebb39d79b4f",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 108
+            },
+            "children": [
+              "5b1e39cb-d215-44ca-ba4a-67e766cce2e9",
+              "ac6847d8-dfc2-4d45-a5cf-e0c80ae24884"
+            ]
+          },
+          "1dc43279-0d3e-4208-a173-5eef49de9d0e": {
+            "id": "1dc43279-0d3e-4208-a173-5eef49de9d0e",
+            "name": "action_become_attack_state",
+            "category": "action",
+            "title": "变为攻击状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 240
+            }
+          }
+        },
+        "display": {
+          "camera_x": 461,
+          "camera_y": 387.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "46d6e0d6-2ee7-47a5-8174-463d4fabcfef",
+        "title": "攻击状态子树",
+        "description": "",
+        "group": "怪物AI",
+        "root": "3355d5ed-82c8-4b2d-80d1-1e71ac16e1da",
+        "properties": {},
+        "nodes": {
+          "3355d5ed-82c8-4b2d-80d1-1e71ac16e1da": {
+            "id": "3355d5ed-82c8-4b2d-80d1-1e71ac16e1da",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "68dadd6c-aaac-4dc3-856f-e038677c5fb3",
+              "fb2f775d-b61d-4ecd-8372-8f6dd2aa6d4c"
+            ]
+          },
+          "68dadd6c-aaac-4dc3-856f-e038677c5fb3": {
+            "id": "68dadd6c-aaac-4dc3-856f-e038677c5fb3",
+            "name": "cond_is_attack_state",
+            "category": "condition",
+            "title": "是攻击状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -216
+            }
+          },
+          "2fc52ee0-16ae-4bd1-a6cf-7c8ee4be2a95": {
+            "id": "2fc52ee0-16ae-4bd1-a6cf-7c8ee4be2a95",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 0
+            },
+            "children": [
+              "60900110-bc09-4fdd-8e33-7a319e8d90a7",
+              "55cd5358-426e-4fae-9d1b-22085d1f97ea"
+            ]
+          },
+          "60900110-bc09-4fdd-8e33-7a319e8d90a7": {
+            "id": "60900110-bc09-4fdd-8e33-7a319e8d90a7",
+            "name": "cond_target_in_attack_range",
+            "category": "condition",
+            "title": "目标在攻击范围内",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": -132
+            }
+          },
+          "fb2f775d-b61d-4ecd-8372-8f6dd2aa6d4c": {
+            "id": "fb2f775d-b61d-4ecd-8372-8f6dd2aa6d4c",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 204
+            },
+            "children": [
+              "2fc52ee0-16ae-4bd1-a6cf-7c8ee4be2a95",
+              "76bf54dc-153f-4e13-97b3-19dc3e6e416b"
+            ]
+          },
+          "1324579c-9ecf-470a-9733-8a4bebe16b2b": {
+            "id": "1324579c-9ecf-470a-9733-8a4bebe16b2b",
+            "name": "cond_is_skill_ready",
+            "category": "condition",
+            "title": "技能已准备",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": -48
+            }
+          },
+          "531d9604-2bde-48f7-9f0d-1c86d7b70eaa": {
+            "id": "531d9604-2bde-48f7-9f0d-1c86d7b70eaa",
+            "name": "action_attack_target",
+            "category": "action",
+            "title": "攻击目标",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 48
+            }
+          },
+          "d19cd1cb-4951-44d1-916f-548751fbc651": {
+            "id": "d19cd1cb-4951-44d1-916f-548751fbc651",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 132
+            }
+          },
+          "248f96da-5451-4b75-8f37-dc542a63831c": {
+            "id": "248f96da-5451-4b75-8f37-dc542a63831c",
+            "name": "action_become_follow_state",
+            "category": "action",
+            "title": "变为追击状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 396
+            }
+          },
+          "66179ffe-d0a3-4780-82a9-b693bc630664": {
+            "id": "66179ffe-d0a3-4780-82a9-b693bc630664",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 348
+            },
+            "children": [
+              "9e4a5823-32d8-49b5-8d4b-1588a29af32f",
+              "248f96da-5451-4b75-8f37-dc542a63831c"
+            ]
+          },
+          "76bf54dc-153f-4e13-97b3-19dc3e6e416b": {
+            "id": "76bf54dc-153f-4e13-97b3-19dc3e6e416b",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 420
+            },
+            "children": [
+              "66179ffe-d0a3-4780-82a9-b693bc630664",
+              "0385b99b-6dbf-4312-8752-71477b5841c8"
+            ]
+          },
+          "9e4a5823-32d8-49b5-8d4b-1588a29af32f": {
+            "id": "9e4a5823-32d8-49b5-8d4b-1588a29af32f",
+            "name": "cond_is_target_guard_range",
+            "category": "condition",
+            "title": "目标在警戒范围内",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 312
+            }
+          },
+          "0385b99b-6dbf-4312-8752-71477b5841c8": {
+            "id": "0385b99b-6dbf-4312-8752-71477b5841c8",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 480
+            }
+          },
+          "74868ba2-12ba-417a-86e0-56cc2963707f": {
+            "id": "74868ba2-12ba-417a-86e0-56cc2963707f",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 48
+            },
+            "children": [
+              "1324579c-9ecf-470a-9733-8a4bebe16b2b",
+              "531d9604-2bde-48f7-9f0d-1c86d7b70eaa",
+              "d19cd1cb-4951-44d1-916f-548751fbc651"
+            ]
+          },
+          "55cd5358-426e-4fae-9d1b-22085d1f97ea": {
+            "id": "55cd5358-426e-4fae-9d1b-22085d1f97ea",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 132
+            },
+            "children": [
+              "74868ba2-12ba-417a-86e0-56cc2963707f",
+              "f4815bce-b18e-45c4-8282-57efa32531a2"
+            ]
+          },
+          "f4815bce-b18e-45c4-8282-57efa32531a2": {
+            "id": "f4815bce-b18e-45c4-8282-57efa32531a2",
+            "name": "Succeeder",
+            "category": "action",
+            "title": "Succeeder",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 216
+            }
+          }
+        },
+        "display": {
+          "camera_x": 402,
+          "camera_y": 488.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "custom_nodes": [
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_idle_state",
+        "category": "condition",
+        "title": "是空闲状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_move_state",
+        "category": "condition",
+        "title": "是移动状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_attack_state",
+        "category": "action",
+        "title": "变为攻击状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_attack_state",
+        "category": "condition",
+        "title": "是攻击状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_move_state",
+        "category": "action",
+        "title": "变为移动状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_idle_state",
+        "category": "action",
+        "title": "变为空闲状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_move_grid",
+        "category": "action",
+        "title": "移动一格",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_arrive_destination",
+        "category": "condition",
+        "title": "已抵达目的地",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_attack_target",
+        "category": "action",
+        "title": "攻击目标",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_has_guard_attack_target",
+        "category": "condition",
+        "title": "警戒范围内有目标",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_target_in_attack_range",
+        "category": "condition",
+        "title": "目标在攻击范围内",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_skill_ready",
+        "category": "condition",
+        "title": "技能已准备",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_confirm_attack_target",
+        "category": "action",
+        "title": "确认攻击目标",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_follow_state",
+        "category": "condition",
+        "title": "是追击状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_follow_state",
+        "category": "action",
+        "title": "变为追击状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_has_attack_target",
+        "category": "condition",
+        "title": "已有攻击目标",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_gen_box_path",
+        "category": "action",
+        "title": "生成宝箱路径",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_patrol_state",
+        "category": "action",
+        "title": "变为巡逻状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_patrol_state",
+        "category": "condition",
+        "title": "是巡逻状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_gen_patrol_path",
+        "category": "action",
+        "title": "生成巡逻路径",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_gen_follow_path",
+        "category": "action",
+        "title": "生成追击路径",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_target_guard_range",
+        "category": "condition",
+        "title": "目标在警戒范围内",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_empty_grid",
+        "category": "condition",
+        "title": "是可移动格子",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_erase_attack_target",
+        "category": "action",
+        "title": "清理攻击目标",
+        "group": null,
+        "description": "action_erase_attack_target",
+        "properties": {}
+      }
+    ]
+  },
+  "path": "Z:\\rogue_adventure\\priv\\behavior_tree\\moster_ai.b3"
+}

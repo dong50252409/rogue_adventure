@@ -1,0 +1,4510 @@
+{
+  "name": "rogue_ai",
+  "description": "",
+  "data": {
+    "version": "0.3.0",
+    "scope": "project",
+    "selectedTree": "75756356-a563-4517-997b-fd2d83c3d852",
+    "trees": [
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "4cbcb45b-6488-47af-875b-9386df96ce19",
+        "title": "罗格AI",
+        "description": "",
+        "group": "罗格AI",
+        "root": "5c2e9388-94cf-4b56-8edc-af5001f0fbf7",
+        "properties": {},
+        "nodes": {
+          "674922a0-cf8f-41cb-8185-f6c4339466c8": {
+            "id": "674922a0-cf8f-41cb-8185-f6c4339466c8",
+            "name": "87152989-920f-4fb6-acea-9175ec60987a",
+            "category": "tree",
+            "title": "解锁状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 12,
+              "y": 192
+            }
+          },
+          "b4f8f00d-5356-4639-bc95-8f606157286a": {
+            "id": "b4f8f00d-5356-4639-bc95-8f606157286a",
+            "name": "369da202-e296-4b37-961e-2d25bbd1316c",
+            "category": "tree",
+            "title": "闪避状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 12,
+              "y": -72
+            }
+          },
+          "a1fc1f45-92e0-479d-8757-414eb6ae09b4": {
+            "id": "a1fc1f45-92e0-479d-8757-414eb6ae09b4",
+            "name": "b3f559a4-4510-41ad-8ce9-4615cd66a3d2",
+            "category": "tree",
+            "title": "攻击状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 12,
+              "y": -156
+            }
+          },
+          "28d4f6be-7361-4f1d-8099-b44e6c48ff7f": {
+            "id": "28d4f6be-7361-4f1d-8099-b44e6c48ff7f",
+            "name": "c6127592-9fa3-48a0-8140-3d81965f257e",
+            "category": "tree",
+            "title": "空闲状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 12,
+              "y": -240
+            }
+          },
+          "18f28a1f-6acf-46e5-91c5-b9346b5dcdd5": {
+            "id": "18f28a1f-6acf-46e5-91c5-b9346b5dcdd5",
+            "name": "f9ec10eb-ab82-4386-8625-995c232253a5",
+            "category": "tree",
+            "title": "寻宝状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 12,
+              "y": 108
+            }
+          },
+          "6b8a6587-0f6b-433f-8b10-6ebf3b8115bf": {
+            "id": "6b8a6587-0f6b-433f-8b10-6ebf3b8115bf",
+            "name": "2dedf2ca-eded-45dd-8bd0-3352bf2160e2",
+            "category": "tree",
+            "title": "追击状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 12,
+              "y": 24
+            }
+          },
+          "5c2e9388-94cf-4b56-8edc-af5001f0fbf7": {
+            "id": "5c2e9388-94cf-4b56-8edc-af5001f0fbf7",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -192,
+              "y": 24
+            },
+            "children": [
+              "28d4f6be-7361-4f1d-8099-b44e6c48ff7f",
+              "a1fc1f45-92e0-479d-8757-414eb6ae09b4",
+              "b4f8f00d-5356-4639-bc95-8f606157286a",
+              "6b8a6587-0f6b-433f-8b10-6ebf3b8115bf",
+              "18f28a1f-6acf-46e5-91c5-b9346b5dcdd5",
+              "674922a0-cf8f-41cb-8185-f6c4339466c8",
+              "0eb17311-86df-4caf-9bac-91fac925ec06"
+            ]
+          },
+          "0eb17311-86df-4caf-9bac-91fac925ec06": {
+            "id": "0eb17311-86df-4caf-9bac-91fac925ec06",
+            "name": "edccdba0-13a5-4240-8289-604e47f9b29d",
+            "category": "tree",
+            "title": "恢复状态子树",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 12,
+              "y": 288
+            }
+          }
+        },
+        "display": {
+          "camera_x": 839,
+          "camera_y": 477.5,
+          "camera_z": 0.75,
+          "x": -396,
+          "y": 24
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "87152989-920f-4fb6-acea-9175ec60987a",
+        "title": "解锁状态子树",
+        "description": "",
+        "group": "罗格AI",
+        "root": "11f1ac01-48c8-4ba0-8240-c451732e2dd8",
+        "properties": {},
+        "nodes": {
+          "25168dae-2dd2-4a9c-8b7d-e2992ed742dd": {
+            "id": "25168dae-2dd2-4a9c-8b7d-e2992ed742dd",
+            "name": "cond_is_unlock_state",
+            "category": "condition",
+            "title": "是解锁状态",
+            "description": "cond_is_unlock_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -72
+            }
+          },
+          "9f8d496d-6809-4191-8355-a5aa0705e82c": {
+            "id": "9f8d496d-6809-4191-8355-a5aa0705e82c",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 60
+            },
+            "children": [
+              "b4668222-2cbd-436d-b827-50075d97c53a",
+              "26519b23-00cf-4dd0-9975-c90e7e9426ee"
+            ]
+          },
+          "b4668222-2cbd-436d-b827-50075d97c53a": {
+            "id": "b4668222-2cbd-436d-b827-50075d97c53a",
+            "name": "action_unlock_box",
+            "category": "action",
+            "title": "解锁宝箱",
+            "description": "action_unlock_box\n\n解锁一次宝箱",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 12
+            }
+          },
+          "26519b23-00cf-4dd0-9975-c90e7e9426ee": {
+            "id": "26519b23-00cf-4dd0-9975-c90e7e9426ee",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 108
+            }
+          },
+          "11f1ac01-48c8-4ba0-8240-c451732e2dd8": {
+            "id": "11f1ac01-48c8-4ba0-8240-c451732e2dd8",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "25168dae-2dd2-4a9c-8b7d-e2992ed742dd",
+              "9f8d496d-6809-4191-8355-a5aa0705e82c"
+            ]
+          }
+        },
+        "display": {
+          "camera_x": 600,
+          "camera_y": 567.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "369da202-e296-4b37-961e-2d25bbd1316c",
+        "title": "闪避状态子树",
+        "description": "",
+        "group": "罗格AI",
+        "root": "d3f88ec2-a260-462c-831c-5ef60ea00271",
+        "properties": {},
+        "nodes": {
+          "862e27c7-e6b0-468d-85b1-a72a7ce109db": {
+            "id": "862e27c7-e6b0-468d-85b1-a72a7ce109db",
+            "name": "cond_is_dodge_state",
+            "category": "condition",
+            "title": "是闪避状态",
+            "description": "cond_is_dodge_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 264,
+              "y": 120
+            }
+          },
+          "d3f88ec2-a260-462c-831c-5ef60ea00271": {
+            "id": "d3f88ec2-a260-462c-831c-5ef60ea00271",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 60,
+              "y": 288
+            },
+            "children": [
+              "862e27c7-e6b0-468d-85b1-a72a7ce109db",
+              "ffec3c83-5e60-4f0f-8f70-d2990914b063"
+            ]
+          },
+          "d0893d8f-f7a9-49e8-bcea-79c7b521da48": {
+            "id": "d0893d8f-f7a9-49e8-bcea-79c7b521da48",
+            "name": "action_gen_dodge_path",
+            "category": "action",
+            "title": "生成闪避路径",
+            "description": "action_gen_dodge_path",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 480,
+              "y": 204
+            }
+          },
+          "ffec3c83-5e60-4f0f-8f70-d2990914b063": {
+            "id": "ffec3c83-5e60-4f0f-8f70-d2990914b063",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 264,
+              "y": 444
+            },
+            "children": [
+              "d0893d8f-f7a9-49e8-bcea-79c7b521da48",
+              "eee9969c-8349-4cb2-86e5-02546ab1556a"
+            ]
+          },
+          "08e41ca1-0273-4726-9b88-3f3c52b82483": {
+            "id": "08e41ca1-0273-4726-9b88-3f3c52b82483",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "action_move_grid",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 888,
+              "y": 384
+            }
+          },
+          "8d366813-b957-4224-843d-e2a79a4ac03f": {
+            "id": "8d366813-b957-4224-843d-e2a79a4ac03f",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "cond_is_empty_grid\n\n格子是否视为空地",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 888,
+              "y": 300
+            }
+          },
+          "4a1e9df5-5da8-4e56-86c8-6dace6548ddf": {
+            "id": "4a1e9df5-5da8-4e56-86c8-6dace6548ddf",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 684,
+              "y": 456
+            },
+            "children": [
+              "8d366813-b957-4224-843d-e2a79a4ac03f",
+              "08e41ca1-0273-4726-9b88-3f3c52b82483",
+              "2d4dcd35-e90c-4d6f-b020-b95f863620ee"
+            ]
+          },
+          "eee9969c-8349-4cb2-86e5-02546ab1556a": {
+            "id": "eee9969c-8349-4cb2-86e5-02546ab1556a",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 480,
+              "y": 684
+            },
+            "children": [
+              "4a1e9df5-5da8-4e56-86c8-6dace6548ddf",
+              "f1617562-0549-4a9b-a7e8-698678edb76b"
+            ]
+          },
+          "f1617562-0549-4a9b-a7e8-698678edb76b": {
+            "id": "f1617562-0549-4a9b-a7e8-698678edb76b",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 684,
+              "y": 912
+            }
+          },
+          "d42c34a7-4301-4a8d-8c01-0d54b51a1420": {
+            "id": "d42c34a7-4301-4a8d-8c01-0d54b51a1420",
+            "name": "cond_is_hp_lower",
+            "category": "condition",
+            "title": "是血量过低",
+            "description": "cond_is_hp_lower\n\n角色血量过低",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1308,
+              "y": 468
+            }
+          },
+          "298f5735-84da-4eb5-93da-672b09b46673": {
+            "id": "298f5735-84da-4eb5-93da-672b09b46673",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1104,
+              "y": 564
+            },
+            "children": [
+              "d42c34a7-4301-4a8d-8c01-0d54b51a1420",
+              "61d354be-34d1-4ccc-85b3-bc4895dd697e"
+            ]
+          },
+          "2b914b59-2451-4602-805a-b206e17b7290": {
+            "id": "2b914b59-2451-4602-805a-b206e17b7290",
+            "name": "Succeeder",
+            "category": "action",
+            "title": "Succeeder",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1728,
+              "y": 648
+            }
+          },
+          "2d4dcd35-e90c-4d6f-b020-b95f863620ee": {
+            "id": "2d4dcd35-e90c-4d6f-b020-b95f863620ee",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 888,
+              "y": 696
+            },
+            "children": [
+              "298f5735-84da-4eb5-93da-672b09b46673",
+              "ebd9f635-55c7-44b7-8e42-cfb3eda40132"
+            ]
+          },
+          "ebd9f635-55c7-44b7-8e42-cfb3eda40132": {
+            "id": "ebd9f635-55c7-44b7-8e42-cfb3eda40132",
+            "name": "action_become_attack_state",
+            "category": "action",
+            "title": "变为攻击状态",
+            "description": "action_become_attack_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1104,
+              "y": 828
+            }
+          },
+          "633e9910-11ba-40f9-8953-ead4dd3e454b": {
+            "id": "633e9910-11ba-40f9-8953-ead4dd3e454b",
+            "name": "cond_has_guard_attack_target",
+            "category": "condition",
+            "title": "警戒范围内有目标",
+            "description": "cond_has_guard_attack_target\n\n确认警戒范围内是否有敌对目标",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1728,
+              "y": 564
+            }
+          },
+          "056b9333-91e1-465a-83d9-2195494af906": {
+            "id": "056b9333-91e1-465a-83d9-2195494af906",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1512,
+              "y": 600
+            },
+            "children": [
+              "633e9910-11ba-40f9-8953-ead4dd3e454b",
+              "2b914b59-2451-4602-805a-b206e17b7290"
+            ]
+          },
+          "61d354be-34d1-4ccc-85b3-bc4895dd697e": {
+            "id": "61d354be-34d1-4ccc-85b3-bc4895dd697e",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1308,
+              "y": 672
+            },
+            "children": [
+              "056b9333-91e1-465a-83d9-2195494af906",
+              "5f6f2e43-1a97-4d2e-8ecb-7f4cdcf510d3"
+            ]
+          },
+          "5f6f2e43-1a97-4d2e-8ecb-7f4cdcf510d3": {
+            "id": "5f6f2e43-1a97-4d2e-8ecb-7f4cdcf510d3",
+            "name": "action_become_recover_state",
+            "category": "action",
+            "title": "变为恢复状态",
+            "description": "action_become_recover_state\n\n休息10秒钟恢复满血",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1512,
+              "y": 732
+            }
+          }
+        },
+        "display": {
+          "camera_x": 376,
+          "camera_y": 130.5,
+          "camera_z": 0.75,
+          "x": -144,
+          "y": 288
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "b3f559a4-4510-41ad-8ce9-4615cd66a3d2",
+        "title": "攻击状态子树",
+        "description": "",
+        "group": "罗格AI",
+        "root": "633fc706-8786-43dc-887b-8ed7e6a7f335",
+        "properties": {},
+        "nodes": {
+          "633fc706-8786-43dc-887b-8ed7e6a7f335": {
+            "id": "633fc706-8786-43dc-887b-8ed7e6a7f335",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "9b003188-24c9-4de0-81c2-b4843a872f72",
+              "898f9600-620c-475c-8105-35da86b96237"
+            ]
+          },
+          "9b003188-24c9-4de0-81c2-b4843a872f72": {
+            "id": "9b003188-24c9-4de0-81c2-b4843a872f72",
+            "name": "cond_is_attack_state",
+            "category": "condition",
+            "title": "是攻击状态",
+            "description": "cond_is_attack_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -216
+            }
+          },
+          "19607916-3686-4645-8514-58ce1f36e899": {
+            "id": "19607916-3686-4645-8514-58ce1f36e899",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 24
+            },
+            "children": [
+              "4d23e461-d3a4-44f9-9497-5c74f8ef6f0f",
+              "d30642bc-d39e-4c2f-93ae-a73153487c8c"
+            ]
+          },
+          "898f9600-620c-475c-8105-35da86b96237": {
+            "id": "898f9600-620c-475c-8105-35da86b96237",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 204
+            },
+            "children": [
+              "e1fc338c-3422-4120-998f-60cd218c267e",
+              "0bdf9316-779a-4a64-b5d8-e88f71f8ebe0"
+            ]
+          },
+          "5a83788f-c67a-4424-845d-455e7fb49735": {
+            "id": "5a83788f-c67a-4424-845d-455e7fb49735",
+            "name": "cond_target_in_attack_range",
+            "category": "condition",
+            "title": "目标在攻击范围内",
+            "description": "cond_target_in_attack_range\n\n确认目标是否存活，且是否在攻击范围内",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": -132
+            }
+          },
+          "4d23e461-d3a4-44f9-9497-5c74f8ef6f0f": {
+            "id": "4d23e461-d3a4-44f9-9497-5c74f8ef6f0f",
+            "name": "cond_is_skill_ready",
+            "category": "condition",
+            "title": "技能已准备",
+            "description": "cond_is_skill_ready",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": -48
+            }
+          },
+          "84b357a9-8a77-4270-8b94-132a36a60974": {
+            "id": "84b357a9-8a77-4270-8b94-132a36a60974",
+            "name": "action_attack_target",
+            "category": "action",
+            "title": "攻击目标",
+            "description": "action_attack_target\n\n攻击一次目标，并设置冷却时间",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1452,
+              "y": 48
+            }
+          },
+          "a0f52851-b796-4e35-84c1-b86b8906ee6a": {
+            "id": "a0f52851-b796-4e35-84c1-b86b8906ee6a",
+            "name": "action_become_dodge_state",
+            "category": "action",
+            "title": "变为闪避状态",
+            "description": "action_become_dodge_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 216
+            }
+          },
+          "e1fc338c-3422-4120-998f-60cd218c267e": {
+            "id": "e1fc338c-3422-4120-998f-60cd218c267e",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 0
+            },
+            "children": [
+              "5a83788f-c67a-4424-845d-455e7fb49735",
+              "5f43d60c-9056-43ba-8e6c-289a1cf381ff"
+            ]
+          },
+          "5f43d60c-9056-43ba-8e6c-289a1cf381ff": {
+            "id": "5f43d60c-9056-43ba-8e6c-289a1cf381ff",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 120
+            },
+            "children": [
+              "19607916-3686-4645-8514-58ce1f36e899",
+              "a0f52851-b796-4e35-84c1-b86b8906ee6a"
+            ]
+          },
+          "86c2f9e5-bef0-48b1-8f5e-bbb3612d8737": {
+            "id": "86c2f9e5-bef0-48b1-8f5e-bbb3612d8737",
+            "name": "action_become_follow_state",
+            "category": "action",
+            "title": "变为追击状态",
+            "description": "action_become_follow_state\n\n在安全攻击范围内追击目标",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 396
+            }
+          },
+          "904367a1-8c37-4394-aee4-e8cb034f66be": {
+            "id": "904367a1-8c37-4394-aee4-e8cb034f66be",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 348
+            },
+            "children": [
+              "3707c8a0-7d3b-463e-8886-7182f165498c",
+              "86c2f9e5-bef0-48b1-8f5e-bbb3612d8737"
+            ]
+          },
+          "0bdf9316-779a-4a64-b5d8-e88f71f8ebe0": {
+            "id": "0bdf9316-779a-4a64-b5d8-e88f71f8ebe0",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 420
+            },
+            "children": [
+              "904367a1-8c37-4394-aee4-e8cb034f66be",
+              "6687905b-d7e8-4cfd-be20-6213753bb2b0"
+            ]
+          },
+          "6687905b-d7e8-4cfd-be20-6213753bb2b0": {
+            "id": "6687905b-d7e8-4cfd-be20-6213753bb2b0",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 480
+            }
+          },
+          "3707c8a0-7d3b-463e-8886-7182f165498c": {
+            "id": "3707c8a0-7d3b-463e-8886-7182f165498c",
+            "name": "cond_is_target_guard_range",
+            "category": "condition",
+            "title": "目标在警戒范围内",
+            "description": "cond_is_target_guard_range",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 312
+            }
+          },
+          "7fc18228-6309-4aa2-82ee-6ee6e901f4a6": {
+            "id": "7fc18228-6309-4aa2-82ee-6ee6e901f4a6",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1452,
+              "y": 132
+            }
+          },
+          "d30642bc-d39e-4c2f-93ae-a73153487c8c": {
+            "id": "d30642bc-d39e-4c2f-93ae-a73153487c8c",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 84
+            },
+            "children": [
+              "84b357a9-8a77-4270-8b94-132a36a60974",
+              "7fc18228-6309-4aa2-82ee-6ee6e901f4a6"
+            ]
+          }
+        },
+        "display": {
+          "camera_x": 326,
+          "camera_y": 479.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "c6127592-9fa3-48a0-8140-3d81965f257e",
+        "title": "空闲状态子树",
+        "description": "",
+        "group": "罗格AI",
+        "root": "97e70e99-69a4-4d9a-816d-82af1f2e158f",
+        "properties": {},
+        "nodes": {
+          "5050120a-7b64-4a45-bee0-406cd12fac7e": {
+            "id": "5050120a-7b64-4a45-bee0-406cd12fac7e",
+            "name": "cond_is_idle_state",
+            "category": "condition",
+            "title": "是空闲状态",
+            "description": "cond_is_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -132
+            }
+          },
+          "97e70e99-69a4-4d9a-816d-82af1f2e158f": {
+            "id": "97e70e99-69a4-4d9a-816d-82af1f2e158f",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "5050120a-7b64-4a45-bee0-406cd12fac7e",
+              "0f260745-3362-4b17-9681-4f029df781a9"
+            ]
+          },
+          "ed81fae6-a52b-4d89-b8ba-1da7ba2e5531": {
+            "id": "ed81fae6-a52b-4d89-b8ba-1da7ba2e5531",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 240
+            },
+            "children": [
+              "da9d95d5-c9ff-478e-af4d-5c47cb6325ee",
+              "b762c4b6-fd1c-4d2e-80a0-707de44ea556"
+            ]
+          },
+          "b44270c0-2757-4e71-839a-ddafc7586f56": {
+            "id": "b44270c0-2757-4e71-839a-ddafc7586f56",
+            "name": "cond_has_other_box",
+            "category": "condition",
+            "title": "有待寻找宝箱",
+            "description": "cond_has_other_box\n\n是否还有其他带解锁宝箱",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 132
+            }
+          },
+          "b762c4b6-fd1c-4d2e-80a0-707de44ea556": {
+            "id": "b762c4b6-fd1c-4d2e-80a0-707de44ea556",
+            "name": "action_victory",
+            "category": "action",
+            "title": "胜利",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 312
+            }
+          },
+          "da9d95d5-c9ff-478e-af4d-5c47cb6325ee": {
+            "id": "da9d95d5-c9ff-478e-af4d-5c47cb6325ee",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 180
+            },
+            "children": [
+              "b44270c0-2757-4e71-839a-ddafc7586f56",
+              "eca7d9ee-ebfa-4a11-b1cf-6bbaabae6e57"
+            ]
+          },
+          "eca7d9ee-ebfa-4a11-b1cf-6bbaabae6e57": {
+            "id": "eca7d9ee-ebfa-4a11-b1cf-6bbaabae6e57",
+            "name": "action_become_search_state",
+            "category": "action",
+            "title": "变为寻宝状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 216
+            }
+          },
+          "1727cc02-9870-4155-8b7d-b1c98febfdd0": {
+            "id": "1727cc02-9870-4155-8b7d-b1c98febfdd0",
+            "name": "cond_is_hp_lower",
+            "category": "condition",
+            "title": "是血量过低",
+            "description": "cond_is_hp_lower\n\n角色血量过低",
+            "group": "Default",
+            "properties": {
+              "threshold": 60
+            },
+            "display": {
+              "x": 828,
+              "y": -48
+            }
+          },
+          "d0295538-1e36-4980-a954-1f85cb062f33": {
+            "id": "d0295538-1e36-4980-a954-1f85cb062f33",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 0
+            },
+            "children": [
+              "1727cc02-9870-4155-8b7d-b1c98febfdd0",
+              "460d7efe-a9cd-47da-85b2-1f965a2599d1"
+            ]
+          },
+          "460d7efe-a9cd-47da-85b2-1f965a2599d1": {
+            "id": "460d7efe-a9cd-47da-85b2-1f965a2599d1",
+            "name": "action_become_recover_state",
+            "category": "action",
+            "title": "变为恢复状态",
+            "description": "action_become_recover_state\n\n休息10秒钟恢复满血",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 48
+            }
+          },
+          "0f260745-3362-4b17-9681-4f029df781a9": {
+            "id": "0f260745-3362-4b17-9681-4f029df781a9",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 120
+            },
+            "children": [
+              "d0295538-1e36-4980-a954-1f85cb062f33",
+              "ed81fae6-a52b-4d89-b8ba-1da7ba2e5531"
+            ]
+          }
+        },
+        "display": {
+          "camera_x": 474,
+          "camera_y": 539.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "2dedf2ca-eded-45dd-8bd0-3352bf2160e2",
+        "title": "追击状态子树",
+        "description": "",
+        "group": "罗格AI",
+        "root": "b00f1acd-1d54-4a99-ab3e-c3470f208109",
+        "properties": {},
+        "nodes": {
+          "b00f1acd-1d54-4a99-ab3e-c3470f208109": {
+            "id": "b00f1acd-1d54-4a99-ab3e-c3470f208109",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 144,
+              "y": 0
+            },
+            "children": [
+              "bbd69374-b63c-491f-a9a3-110da2fcf72f",
+              "c5a3aae7-e2d0-4fff-8338-387e70c3bb0f"
+            ]
+          },
+          "bbd69374-b63c-491f-a9a3-110da2fcf72f": {
+            "id": "bbd69374-b63c-491f-a9a3-110da2fcf72f",
+            "name": "cond_is_follow_state",
+            "category": "condition",
+            "title": "是追击状态",
+            "description": "cond_is_follow_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 348,
+              "y": -120
+            }
+          },
+          "47ddb9ec-6c97-43c2-8aca-7e38230c8554": {
+            "id": "47ddb9ec-6c97-43c2-8aca-7e38230c8554",
+            "name": "action_gen_follow_path",
+            "category": "action",
+            "title": "生成追击路径",
+            "description": "action_gen_follow_path",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 564,
+              "y": -24
+            }
+          },
+          "c5a3aae7-e2d0-4fff-8338-387e70c3bb0f": {
+            "id": "c5a3aae7-e2d0-4fff-8338-387e70c3bb0f",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 348,
+              "y": 108
+            },
+            "children": [
+              "47ddb9ec-6c97-43c2-8aca-7e38230c8554",
+              "51ee0941-34ae-4a42-9b7a-ba00335e6d96"
+            ]
+          },
+          "d83dd698-44e1-456d-828d-69289289afa6": {
+            "id": "d83dd698-44e1-456d-828d-69289289afa6",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "action_move_grid",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 972,
+              "y": 144
+            }
+          },
+          "25aedc0d-1f5e-4397-8969-5cbe733ab6f5": {
+            "id": "25aedc0d-1f5e-4397-8969-5cbe733ab6f5",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "cond_is_empty_grid\n\n格子是否视为空地",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 972,
+              "y": 60
+            }
+          },
+          "130a1d6a-14e0-4361-82f3-7521dfbd7b72": {
+            "id": "130a1d6a-14e0-4361-82f3-7521dfbd7b72",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 768,
+              "y": 144
+            },
+            "children": [
+              "25aedc0d-1f5e-4397-8969-5cbe733ab6f5",
+              "d83dd698-44e1-456d-828d-69289289afa6",
+              "04f04ee4-bbe4-4bec-bf71-e1f0e37ef76e"
+            ]
+          },
+          "51ee0941-34ae-4a42-9b7a-ba00335e6d96": {
+            "id": "51ee0941-34ae-4a42-9b7a-ba00335e6d96",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 564,
+              "y": 240
+            },
+            "children": [
+              "130a1d6a-14e0-4361-82f3-7521dfbd7b72",
+              "a14e1610-a68b-4ddc-89de-f11c692675d7"
+            ]
+          },
+          "a14e1610-a68b-4ddc-89de-f11c692675d7": {
+            "id": "a14e1610-a68b-4ddc-89de-f11c692675d7",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 768,
+              "y": 324
+            }
+          },
+          "04f04ee4-bbe4-4bec-bf71-e1f0e37ef76e": {
+            "id": "04f04ee4-bbe4-4bec-bf71-e1f0e37ef76e",
+            "name": "action_become_attack_state",
+            "category": "action",
+            "title": "变为攻击状态",
+            "description": "action_become_attack_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 972,
+              "y": 240
+            }
+          }
+        },
+        "display": {
+          "camera_x": 488,
+          "camera_y": 512.5,
+          "camera_z": 0.75,
+          "x": -60,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "f9ec10eb-ab82-4386-8625-995c232253a5",
+        "title": "寻宝状态子树",
+        "description": "",
+        "group": "罗格AI",
+        "root": "83b85fe4-dbd8-45b7-8f9d-e981564e88a8",
+        "properties": {},
+        "nodes": {
+          "83b85fe4-dbd8-45b7-8f9d-e981564e88a8": {
+            "id": "83b85fe4-dbd8-45b7-8f9d-e981564e88a8",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "fdea316c-8bf2-4e51-833c-74cdfb6d5231",
+              "f8023d4d-cec5-4864-9a29-1e84513975d8"
+            ]
+          },
+          "fdea316c-8bf2-4e51-833c-74cdfb6d5231": {
+            "id": "fdea316c-8bf2-4e51-833c-74cdfb6d5231",
+            "name": "cond_is_search_state",
+            "category": "condition",
+            "title": "是寻宝状态",
+            "description": "cond_is_search_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -144
+            }
+          },
+          "76887fdb-3cb4-42d5-9ca5-16136d8e2f29": {
+            "id": "76887fdb-3cb4-42d5-9ca5-16136d8e2f29",
+            "name": "action_gen_box_path",
+            "category": "action",
+            "title": "生成宝箱路径",
+            "description": "action_gen_box_path\n\n取宝箱周围 1 圈最近的点，生成行走路径",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": -60
+            }
+          },
+          "f8023d4d-cec5-4864-9a29-1e84513975d8": {
+            "id": "f8023d4d-cec5-4864-9a29-1e84513975d8",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 132
+            },
+            "children": [
+              "76887fdb-3cb4-42d5-9ca5-16136d8e2f29",
+              "e1a77bf9-1285-4bf1-bb8f-a17bc7858763"
+            ]
+          },
+          "4a4b8a3f-82ca-41b0-8758-03a8e8d4b2cf": {
+            "id": "4a4b8a3f-82ca-41b0-8758-03a8e8d4b2cf",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 156
+            },
+            "children": [
+              "a08a0755-04c0-4eaa-8a03-4b9b760faf75",
+              "45a51b13-a31e-40af-b946-64dbe718730b",
+              "7716b1eb-e58c-46f4-b007-64708661d60e"
+            ]
+          },
+          "e1a77bf9-1285-4bf1-bb8f-a17bc7858763": {
+            "id": "e1a77bf9-1285-4bf1-bb8f-a17bc7858763",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 312
+            },
+            "children": [
+              "4a4b8a3f-82ca-41b0-8758-03a8e8d4b2cf",
+              "a443c6c7-88b1-4a28-8ae3-b7b0491e7caf"
+            ]
+          },
+          "a08a0755-04c0-4eaa-8a03-4b9b760faf75": {
+            "id": "a08a0755-04c0-4eaa-8a03-4b9b760faf75",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "cond_is_empty_grid\n\n格子是否视为空地",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 36
+            }
+          },
+          "45a51b13-a31e-40af-b946-64dbe718730b": {
+            "id": "45a51b13-a31e-40af-b946-64dbe718730b",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "action_move_grid",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 120
+            }
+          },
+          "a443c6c7-88b1-4a28-8ae3-b7b0491e7caf": {
+            "id": "a443c6c7-88b1-4a28-8ae3-b7b0491e7caf",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 468
+            }
+          },
+          "f37c67af-e1eb-489e-beec-0a863157b079": {
+            "id": "f37c67af-e1eb-489e-beec-0a863157b079",
+            "name": "cond_is_arrive_target",
+            "category": "condition",
+            "title": "已抵达目的地",
+            "description": "cond_is_arrive_target",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1452,
+              "y": 204
+            }
+          },
+          "e426df7c-9a4b-4973-831c-f7052c488844": {
+            "id": "e426df7c-9a4b-4973-831c-f7052c488844",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 252
+            },
+            "children": [
+              "f37c67af-e1eb-489e-beec-0a863157b079",
+              "a0f25a08-0abb-4bee-adf0-c566d0ead152"
+            ]
+          },
+          "7716b1eb-e58c-46f4-b007-64708661d60e": {
+            "id": "7716b1eb-e58c-46f4-b007-64708661d60e",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 324
+            },
+            "children": [
+              "e426df7c-9a4b-4973-831c-f7052c488844",
+              "9e391f0d-897f-48b6-b8d5-3b1ce86f5dd8"
+            ]
+          },
+          "9e391f0d-897f-48b6-b8d5-3b1ce86f5dd8": {
+            "id": "9e391f0d-897f-48b6-b8d5-3b1ce86f5dd8",
+            "name": "Runner",
+            "category": "action",
+            "title": "Runner",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 384
+            }
+          },
+          "a0f25a08-0abb-4bee-adf0-c566d0ead152": {
+            "id": "a0f25a08-0abb-4bee-adf0-c566d0ead152",
+            "name": "action_become_unlock_state",
+            "category": "action",
+            "title": "变为解锁状态",
+            "description": "action_become_unlock_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1452,
+              "y": 300
+            }
+          }
+        },
+        "display": {
+          "camera_x": 357,
+          "camera_y": 442.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "75756356-a563-4517-997b-fd2d83c3d852",
+        "title": "罗格被动AI",
+        "description": "",
+        "group": "罗格被动AI",
+        "root": "c5bae444-c669-4840-b7f4-cb445efd544c",
+        "properties": {},
+        "nodes": {
+          "cf780d70-6926-4e64-8864-716638416c75": {
+            "id": "cf780d70-6926-4e64-8864-716638416c75",
+            "name": "cond_is_hp_lower",
+            "category": "condition",
+            "title": "是血量过低",
+            "description": "cond_is_hp_lower\n\n角色血量过低",
+            "group": "Default",
+            "properties": {
+              "threshold": 30
+            },
+            "display": {
+              "x": 696,
+              "y": 60
+            }
+          },
+          "5dcd255d-681d-438b-b07a-76ae8ecb5f8e": {
+            "id": "5dcd255d-681d-438b-b07a-76ae8ecb5f8e",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 72,
+              "y": 72
+            },
+            "children": [
+              "bd4b011a-ca6e-477d-8135-a202f275b855",
+              "819483c0-2c1d-4459-82ed-aa21349df1ca"
+            ]
+          },
+          "f7bc8636-1496-4092-9e2e-3de9023e300b": {
+            "id": "f7bc8636-1496-4092-9e2e-3de9023e300b",
+            "name": "action_become_dodge_state",
+            "category": "action",
+            "title": "变为闪避状态",
+            "description": "action_become_dodge_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 696,
+              "y": 156
+            }
+          },
+          "a2365c49-0e0c-4ecb-8b7f-9543d1d64455": {
+            "id": "a2365c49-0e0c-4ecb-8b7f-9543d1d64455",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 72,
+              "y": -156
+            },
+            "children": [
+              "1eb0a5e9-1b9f-4a23-ae65-b7e6c43c3df7",
+              "08ba41a4-99cf-49f5-8ce4-f2d0a53c3620"
+            ]
+          },
+          "08ba41a4-99cf-49f5-8ce4-f2d0a53c3620": {
+            "id": "08ba41a4-99cf-49f5-8ce4-f2d0a53c3620",
+            "name": "action_lost",
+            "category": "action",
+            "title": "失败",
+            "description": "action_lost",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 288,
+              "y": -108
+            }
+          },
+          "c5bae444-c669-4840-b7f4-cb445efd544c": {
+            "id": "c5bae444-c669-4840-b7f4-cb445efd544c",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -132,
+              "y": -36
+            },
+            "children": [
+              "a2365c49-0e0c-4ecb-8b7f-9543d1d64455",
+              "5dcd255d-681d-438b-b07a-76ae8ecb5f8e"
+            ]
+          },
+          "c5fd6a83-7dc3-427f-8952-76e5fd23543e": {
+            "id": "c5fd6a83-7dc3-427f-8952-76e5fd23543e",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 492,
+              "y": 108
+            },
+            "children": [
+              "cf780d70-6926-4e64-8864-716638416c75",
+              "f7bc8636-1496-4092-9e2e-3de9023e300b"
+            ]
+          },
+          "819483c0-2c1d-4459-82ed-aa21349df1ca": {
+            "id": "819483c0-2c1d-4459-82ed-aa21349df1ca",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 288,
+              "y": 168
+            },
+            "children": [
+              "c5fd6a83-7dc3-427f-8952-76e5fd23543e",
+              "0cd62ce7-beae-4407-b0af-1a9c7a63e5d7"
+            ]
+          },
+          "bd4b011a-ca6e-477d-8135-a202f275b855": {
+            "id": "bd4b011a-ca6e-477d-8135-a202f275b855",
+            "name": "action_set_attack_target",
+            "category": "action",
+            "title": "设置攻击目标",
+            "description": "action_set_attack_target\n\n设置攻击目标，如果已有目标则不更换",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 288,
+              "y": -24
+            }
+          },
+          "1eb0a5e9-1b9f-4a23-ae65-b7e6c43c3df7": {
+            "id": "1eb0a5e9-1b9f-4a23-ae65-b7e6c43c3df7",
+            "name": "cond_is_died",
+            "category": "condition",
+            "title": "已死亡",
+            "description": "cond_is_died",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 288,
+              "y": -204
+            }
+          },
+          "0cd62ce7-beae-4407-b0af-1a9c7a63e5d7": {
+            "id": "0cd62ce7-beae-4407-b0af-1a9c7a63e5d7",
+            "name": "action_become_attack_state",
+            "category": "action",
+            "title": "变为攻击状态",
+            "description": "action_become_attack_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 492,
+              "y": 240
+            }
+          }
+        },
+        "display": {
+          "camera_x": 765,
+          "camera_y": 625.5,
+          "camera_z": 0.75,
+          "x": -336,
+          "y": -36
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "edccdba0-13a5-4240-8289-604e47f9b29d",
+        "title": "恢复状态子树",
+        "description": "",
+        "group": "罗格AI",
+        "root": "5f5d3366-5039-4b04-80b6-5b1d15a2adfa",
+        "properties": {},
+        "nodes": {
+          "3d5ded47-e788-478d-a9c9-8e0d9df64e67": {
+            "id": "3d5ded47-e788-478d-a9c9-8e0d9df64e67",
+            "name": "cond_is_recover_state",
+            "category": "condition",
+            "title": "是恢复状态",
+            "description": "cond_is_recover_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 108,
+              "y": -84
+            }
+          },
+          "5f5d3366-5039-4b04-80b6-5b1d15a2adfa": {
+            "id": "5f5d3366-5039-4b04-80b6-5b1d15a2adfa",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -96,
+              "y": -12
+            },
+            "children": [
+              "3d5ded47-e788-478d-a9c9-8e0d9df64e67",
+              "9886199a-58b0-47d1-8c4b-8d8f3a88c9f6"
+            ]
+          },
+          "3488f3c7-615f-4e47-8fc0-bc825a5cdce1": {
+            "id": "3488f3c7-615f-4e47-8fc0-bc825a5cdce1",
+            "name": "action_wait_recover",
+            "category": "action",
+            "title": "等待休息恢复",
+            "description": "action_wait_recover\n\n休息一段时间，恢复所有血量",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 324,
+              "y": 0
+            }
+          },
+          "9886199a-58b0-47d1-8c4b-8d8f3a88c9f6": {
+            "id": "9886199a-58b0-47d1-8c4b-8d8f3a88c9f6",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 108,
+              "y": 48
+            },
+            "children": [
+              "3488f3c7-615f-4e47-8fc0-bc825a5cdce1",
+              "8ea5cc0b-60da-4642-8370-b33fe9a1feae"
+            ]
+          },
+          "8ea5cc0b-60da-4642-8370-b33fe9a1feae": {
+            "id": "8ea5cc0b-60da-4642-8370-b33fe9a1feae",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 324,
+              "y": 96
+            }
+          }
+        },
+        "display": {
+          "camera_x": 960,
+          "camera_y": 508.5,
+          "camera_z": 1,
+          "x": -300,
+          "y": -12
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "def45d5f-3447-4462-b543-0c16347484a6",
+        "title": "耦合",
+        "description": "",
+        "group": "Default",
+        "root": "89cb2b3c-6742-4baf-8a40-94f8eb2c8db8",
+        "properties": {},
+        "nodes": {
+          "89cb2b3c-6742-4baf-8a40-94f8eb2c8db8": {
+            "id": "89cb2b3c-6742-4baf-8a40-94f8eb2c8db8",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -240,
+              "y": -24
+            },
+            "children": [
+              "f7aa18d2-b4a9-4133-8223-eeb74ed252c0",
+              "f7ec043b-eb23-45f1-8423-4d9b79b287ac",
+              "6d6a9eb9-2ad9-45fd-820f-333e6ed9ba70",
+              "b87accbe-de53-48ed-8d04-00b38f011d1f",
+              "9f563bdd-5fcc-4a92-8e45-169e2b21bfaa",
+              "aae0dcbe-45cd-4bc4-8c40-4342195fd7c8",
+              "cd0d0ddb-a094-4058-bf06-5d4fe07453aa"
+            ]
+          },
+          "9f563bdd-5fcc-4a92-8e45-169e2b21bfaa": {
+            "id": "9f563bdd-5fcc-4a92-8e45-169e2b21bfaa",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -36,
+              "y": 768
+            },
+            "children": [
+              "c3fa00b5-bbd9-4314-8096-0210041284ce",
+              "3819c65a-239f-4fa6-a162-f474cb0ec7b9"
+            ]
+          },
+          "c3fa00b5-bbd9-4314-8096-0210041284ce": {
+            "id": "c3fa00b5-bbd9-4314-8096-0210041284ce",
+            "name": "cond_is_search_state",
+            "category": "condition",
+            "title": "是寻宝状态",
+            "description": "cond_is_search_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": 636
+            }
+          },
+          "92448cec-6b8d-425a-957e-8562a59c5a42": {
+            "id": "92448cec-6b8d-425a-957e-8562a59c5a42",
+            "name": "action_gen_box_path",
+            "category": "action",
+            "title": "生成宝箱路径",
+            "description": "action_gen_box_path\n\n取宝箱周围 1 圈最近的点，生成行走路径",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": 720
+            }
+          },
+          "3819c65a-239f-4fa6-a162-f474cb0ec7b9": {
+            "id": "3819c65a-239f-4fa6-a162-f474cb0ec7b9",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": 912
+            },
+            "children": [
+              "92448cec-6b8d-425a-957e-8562a59c5a42",
+              "aab384fd-7de1-4bac-8436-425c7b744102"
+            ]
+          },
+          "fd2edac8-4271-4594-81a0-f130a33e4f77": {
+            "id": "fd2edac8-4271-4594-81a0-f130a33e4f77",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": 936
+            },
+            "children": [
+              "a74fc5df-0278-4387-a9ba-54ad20b71bb1",
+              "58f54091-a15d-4ded-8834-d28ff00c8f8f",
+              "482cf9e8-f2c2-4588-ad72-d3ba63860ccd"
+            ]
+          },
+          "aab384fd-7de1-4bac-8436-425c7b744102": {
+            "id": "aab384fd-7de1-4bac-8436-425c7b744102",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": 1092
+            },
+            "children": [
+              "fd2edac8-4271-4594-81a0-f130a33e4f77",
+              "e011e166-dd48-4318-8f1d-006985035f56"
+            ]
+          },
+          "a74fc5df-0278-4387-a9ba-54ad20b71bb1": {
+            "id": "a74fc5df-0278-4387-a9ba-54ad20b71bb1",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "cond_is_empty_grid\n\n格子是否视为空地",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": 816
+            }
+          },
+          "58f54091-a15d-4ded-8834-d28ff00c8f8f": {
+            "id": "58f54091-a15d-4ded-8834-d28ff00c8f8f",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "action_move_grid",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": 900
+            }
+          },
+          "e011e166-dd48-4318-8f1d-006985035f56": {
+            "id": "e011e166-dd48-4318-8f1d-006985035f56",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": 1248
+            }
+          },
+          "99e6d071-d76e-4172-8e2b-3841ad687964": {
+            "id": "99e6d071-d76e-4172-8e2b-3841ad687964",
+            "name": "cond_is_arrive_target",
+            "category": "condition",
+            "title": "已抵达目的地",
+            "description": "cond_is_arrive_target",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1212,
+              "y": 984
+            }
+          },
+          "ad18bd96-6334-4e6a-857c-7018a1cd34ff": {
+            "id": "ad18bd96-6334-4e6a-857c-7018a1cd34ff",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1008,
+              "y": 1032
+            },
+            "children": [
+              "99e6d071-d76e-4172-8e2b-3841ad687964",
+              "a83c87f6-2a2e-4f9c-9562-3a7bea914ef9"
+            ]
+          },
+          "482cf9e8-f2c2-4588-ad72-d3ba63860ccd": {
+            "id": "482cf9e8-f2c2-4588-ad72-d3ba63860ccd",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": 1104
+            },
+            "children": [
+              "ad18bd96-6334-4e6a-857c-7018a1cd34ff",
+              "b215e906-36f4-4e7b-8926-54b3996c0ffe"
+            ]
+          },
+          "b215e906-36f4-4e7b-8926-54b3996c0ffe": {
+            "id": "b215e906-36f4-4e7b-8926-54b3996c0ffe",
+            "name": "Runner",
+            "category": "action",
+            "title": "Runner",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1008,
+              "y": 1164
+            }
+          },
+          "a83c87f6-2a2e-4f9c-9562-3a7bea914ef9": {
+            "id": "a83c87f6-2a2e-4f9c-9562-3a7bea914ef9",
+            "name": "action_become_unlock_state",
+            "category": "action",
+            "title": "变为解锁状态",
+            "description": "action_become_unlock_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1212,
+              "y": 1080
+            }
+          },
+          "76847aac-30f0-461c-967d-ade18fc6bc7b": {
+            "id": "76847aac-30f0-461c-967d-ade18fc6bc7b",
+            "name": "cond_is_recover_state",
+            "category": "condition",
+            "title": "是恢复状态",
+            "description": "cond_is_recover_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": 1608
+            }
+          },
+          "cd0d0ddb-a094-4058-bf06-5d4fe07453aa": {
+            "id": "cd0d0ddb-a094-4058-bf06-5d4fe07453aa",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -36,
+              "y": 1668
+            },
+            "children": [
+              "76847aac-30f0-461c-967d-ade18fc6bc7b",
+              "e552e155-5a45-48eb-a256-dd3518f50203"
+            ]
+          },
+          "59fa4987-3327-4950-b95a-db3c540f44ef": {
+            "id": "59fa4987-3327-4950-b95a-db3c540f44ef",
+            "name": "action_wait_recover",
+            "category": "action",
+            "title": "等待休息恢复",
+            "description": "action_wait_recover\n\n休息一段时间，恢复所有血量",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": 1692
+            }
+          },
+          "e552e155-5a45-48eb-a256-dd3518f50203": {
+            "id": "e552e155-5a45-48eb-a256-dd3518f50203",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": 1740
+            },
+            "children": [
+              "59fa4987-3327-4950-b95a-db3c540f44ef",
+              "55eaa4b4-0518-4b4c-9e5f-5b26ed5b42a4"
+            ]
+          },
+          "55eaa4b4-0518-4b4c-9e5f-5b26ed5b42a4": {
+            "id": "55eaa4b4-0518-4b4c-9e5f-5b26ed5b42a4",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": 1776
+            }
+          },
+          "f7ec043b-eb23-45f1-8423-4d9b79b287ac": {
+            "id": "f7ec043b-eb23-45f1-8423-4d9b79b287ac",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -36,
+              "y": -1356
+            },
+            "children": [
+              "6f70e810-14e7-4477-b50e-1c79c0a16bb4",
+              "a5bb6f01-0160-48ae-8ab8-65625c0b1f53"
+            ]
+          },
+          "6f70e810-14e7-4477-b50e-1c79c0a16bb4": {
+            "id": "6f70e810-14e7-4477-b50e-1c79c0a16bb4",
+            "name": "cond_is_attack_state",
+            "category": "condition",
+            "title": "是攻击状态",
+            "description": "cond_is_attack_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": -1560
+            }
+          },
+          "684780d0-c67f-4094-89c2-f88f512eaa8d": {
+            "id": "684780d0-c67f-4094-89c2-f88f512eaa8d",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -1320
+            },
+            "children": [
+              "00aa264a-35c7-4c12-bcbd-a7914b87c6d1",
+              "e0834c58-db4c-4d9f-87ba-591aef795bbc"
+            ]
+          },
+          "a5bb6f01-0160-48ae-8ab8-65625c0b1f53": {
+            "id": "a5bb6f01-0160-48ae-8ab8-65625c0b1f53",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": -1140
+            },
+            "children": [
+              "271075d5-5229-4a88-8e12-e99eefafcc0d",
+              "0dbe118d-c9b9-4a1d-869f-cd63590f5868"
+            ]
+          },
+          "f8bdd1cc-27ed-4c15-8c63-06167352fea7": {
+            "id": "f8bdd1cc-27ed-4c15-8c63-06167352fea7",
+            "name": "cond_target_in_attack_range",
+            "category": "condition",
+            "title": "目标在攻击范围内",
+            "description": "cond_target_in_attack_range\n\n确认目标是否存活，且是否在攻击范围内",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": -1476
+            }
+          },
+          "00aa264a-35c7-4c12-bcbd-a7914b87c6d1": {
+            "id": "00aa264a-35c7-4c12-bcbd-a7914b87c6d1",
+            "name": "cond_is_skill_ready",
+            "category": "condition",
+            "title": "技能已准备",
+            "description": "cond_is_skill_ready",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1008,
+              "y": -1392
+            }
+          },
+          "fd337fa4-ce63-43cc-a335-52aba19a986c": {
+            "id": "fd337fa4-ce63-43cc-a335-52aba19a986c",
+            "name": "action_attack_target",
+            "category": "action",
+            "title": "攻击目标",
+            "description": "action_attack_target\n\n攻击一次目标，并设置冷却时间",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1212,
+              "y": -1296
+            }
+          },
+          "1aec82c7-0f22-49b0-8587-864631033227": {
+            "id": "1aec82c7-0f22-49b0-8587-864631033227",
+            "name": "action_become_dodge_state",
+            "category": "action",
+            "title": "变为闪避状态",
+            "description": "action_become_dodge_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -1128
+            }
+          },
+          "271075d5-5229-4a88-8e12-e99eefafcc0d": {
+            "id": "271075d5-5229-4a88-8e12-e99eefafcc0d",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": -1344
+            },
+            "children": [
+              "f8bdd1cc-27ed-4c15-8c63-06167352fea7",
+              "2709af0c-e287-4f13-93c8-22fc845c3562"
+            ]
+          },
+          "2709af0c-e287-4f13-93c8-22fc845c3562": {
+            "id": "2709af0c-e287-4f13-93c8-22fc845c3562",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": -1224
+            },
+            "children": [
+              "684780d0-c67f-4094-89c2-f88f512eaa8d",
+              "1aec82c7-0f22-49b0-8587-864631033227"
+            ]
+          },
+          "67b261e2-3f9b-461d-8db9-0a0a2ce9e9cc": {
+            "id": "67b261e2-3f9b-461d-8db9-0a0a2ce9e9cc",
+            "name": "action_become_follow_state",
+            "category": "action",
+            "title": "变为追击状态",
+            "description": "action_become_follow_state\n\n在安全攻击范围内追击目标",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -948
+            }
+          },
+          "fcf854d7-eea7-4232-85b5-69c7e85ecebc": {
+            "id": "fcf854d7-eea7-4232-85b5-69c7e85ecebc",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": -996
+            },
+            "children": [
+              "53c5d60a-3ddc-47d5-8e5f-1be6811aad2c",
+              "67b261e2-3f9b-461d-8db9-0a0a2ce9e9cc"
+            ]
+          },
+          "0dbe118d-c9b9-4a1d-869f-cd63590f5868": {
+            "id": "0dbe118d-c9b9-4a1d-869f-cd63590f5868",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": -924
+            },
+            "children": [
+              "fcf854d7-eea7-4232-85b5-69c7e85ecebc",
+              "c04b4d66-dc6a-407c-a358-757ce4b87484"
+            ]
+          },
+          "c04b4d66-dc6a-407c-a358-757ce4b87484": {
+            "id": "c04b4d66-dc6a-407c-a358-757ce4b87484",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": -864
+            }
+          },
+          "53c5d60a-3ddc-47d5-8e5f-1be6811aad2c": {
+            "id": "53c5d60a-3ddc-47d5-8e5f-1be6811aad2c",
+            "name": "cond_is_target_guard_range",
+            "category": "condition",
+            "title": "目标在警戒范围内",
+            "description": "cond_is_target_guard_range",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -1032
+            }
+          },
+          "7bec9d3f-df69-4826-9748-0a3ef5477203": {
+            "id": "7bec9d3f-df69-4826-9748-0a3ef5477203",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1212,
+              "y": -1212
+            }
+          },
+          "e0834c58-db4c-4d9f-87ba-591aef795bbc": {
+            "id": "e0834c58-db4c-4d9f-87ba-591aef795bbc",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1008,
+              "y": -1260
+            },
+            "children": [
+              "fd337fa4-ce63-43cc-a335-52aba19a986c",
+              "7bec9d3f-df69-4826-9748-0a3ef5477203"
+            ]
+          },
+          "7e0644a2-7ab8-4900-837e-d991e249129e": {
+            "id": "7e0644a2-7ab8-4900-837e-d991e249129e",
+            "name": "cond_is_idle_state",
+            "category": "condition",
+            "title": "是空闲状态",
+            "description": "cond_is_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": -2088
+            }
+          },
+          "f7aa18d2-b4a9-4133-8223-eeb74ed252c0": {
+            "id": "f7aa18d2-b4a9-4133-8223-eeb74ed252c0",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -36,
+              "y": -1968
+            },
+            "children": [
+              "7e0644a2-7ab8-4900-837e-d991e249129e",
+              "993b3134-8628-4772-8a55-51ade3248535"
+            ]
+          },
+          "64758f8a-6ec7-40bf-81d6-f337a58e4154": {
+            "id": "64758f8a-6ec7-40bf-81d6-f337a58e4154",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": -1716
+            },
+            "children": [
+              "a6686721-6040-44f2-803d-da089bc02ee6",
+              "9f1da94a-6d12-450f-8a5c-818269ea72d5"
+            ]
+          },
+          "7135d002-24a2-4095-ac32-062c9b9927de": {
+            "id": "7135d002-24a2-4095-ac32-062c9b9927de",
+            "name": "cond_has_other_box",
+            "category": "condition",
+            "title": "有待寻找宝箱",
+            "description": "cond_has_other_box\n\n是否还有其他带解锁宝箱",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -1824
+            }
+          },
+          "9f1da94a-6d12-450f-8a5c-818269ea72d5": {
+            "id": "9f1da94a-6d12-450f-8a5c-818269ea72d5",
+            "name": "action_victory",
+            "category": "action",
+            "title": "胜利",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": -1656
+            }
+          },
+          "a6686721-6040-44f2-803d-da089bc02ee6": {
+            "id": "a6686721-6040-44f2-803d-da089bc02ee6",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": -1788
+            },
+            "children": [
+              "7135d002-24a2-4095-ac32-062c9b9927de",
+              "939b99c5-afd4-4935-9a18-d33b25642b6b"
+            ]
+          },
+          "939b99c5-afd4-4935-9a18-d33b25642b6b": {
+            "id": "939b99c5-afd4-4935-9a18-d33b25642b6b",
+            "name": "action_become_search_state",
+            "category": "action",
+            "title": "变为寻宝状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -1740
+            }
+          },
+          "841618cb-33c5-4d55-86b0-2714e2e60dd8": {
+            "id": "841618cb-33c5-4d55-86b0-2714e2e60dd8",
+            "name": "cond_is_hp_lower",
+            "category": "condition",
+            "title": "是血量过低",
+            "description": "cond_is_hp_lower\n\n角色血量过低",
+            "group": "Default",
+            "properties": {
+              "threshold": 60
+            },
+            "display": {
+              "x": 588,
+              "y": -2004
+            }
+          },
+          "5b2275b2-addc-455f-8e83-49eb6900c217": {
+            "id": "5b2275b2-addc-455f-8e83-49eb6900c217",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": -1956
+            },
+            "children": [
+              "841618cb-33c5-4d55-86b0-2714e2e60dd8",
+              "b3d03504-9a12-4d1b-92fe-8c862b9f8e2b"
+            ]
+          },
+          "b3d03504-9a12-4d1b-92fe-8c862b9f8e2b": {
+            "id": "b3d03504-9a12-4d1b-92fe-8c862b9f8e2b",
+            "name": "action_become_recover_state",
+            "category": "action",
+            "title": "变为恢复状态",
+            "description": "action_become_recover_state\n\n休息10秒钟恢复满血",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": -1920
+            }
+          },
+          "993b3134-8628-4772-8a55-51ade3248535": {
+            "id": "993b3134-8628-4772-8a55-51ade3248535",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": -1836
+            },
+            "children": [
+              "5b2275b2-addc-455f-8e83-49eb6900c217",
+              "64758f8a-6ec7-40bf-81d6-f337a58e4154"
+            ]
+          },
+          "67f41d55-7491-4973-8c0e-205d3add9525": {
+            "id": "67f41d55-7491-4973-8c0e-205d3add9525",
+            "name": "cond_is_unlock_state",
+            "category": "condition",
+            "title": "是解锁状态",
+            "description": "cond_is_unlock_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": 1344
+            }
+          },
+          "39170663-d3a5-4e06-9e3b-ac77869f01ed": {
+            "id": "39170663-d3a5-4e06-9e3b-ac77869f01ed",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": 1476
+            },
+            "children": [
+              "55212e0a-3cc6-4699-b54d-7b9d741e5669",
+              "c0373405-02ac-4429-9b5f-2dcbd2b18e90"
+            ]
+          },
+          "55212e0a-3cc6-4699-b54d-7b9d741e5669": {
+            "id": "55212e0a-3cc6-4699-b54d-7b9d741e5669",
+            "name": "action_unlock_box",
+            "category": "action",
+            "title": "解锁宝箱",
+            "description": "action_unlock_box\n\n解锁一次宝箱",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": 1428
+            }
+          },
+          "c0373405-02ac-4429-9b5f-2dcbd2b18e90": {
+            "id": "c0373405-02ac-4429-9b5f-2dcbd2b18e90",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": 1512
+            }
+          },
+          "aae0dcbe-45cd-4bc4-8c40-4342195fd7c8": {
+            "id": "aae0dcbe-45cd-4bc4-8c40-4342195fd7c8",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -36,
+              "y": 1404
+            },
+            "children": [
+              "67f41d55-7491-4973-8c0e-205d3add9525",
+              "39170663-d3a5-4e06-9e3b-ac77869f01ed"
+            ]
+          },
+          "6d6a9eb9-2ad9-45fd-820f-333e6ed9ba70": {
+            "id": "6d6a9eb9-2ad9-45fd-820f-333e6ed9ba70",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -36,
+              "y": -660
+            },
+            "children": [
+              "5dc48d40-ee20-437c-847f-840f2ff37031",
+              "f5a390e2-448d-4ac4-8ee0-46dc8a3f438d"
+            ]
+          },
+          "5dc48d40-ee20-437c-847f-840f2ff37031": {
+            "id": "5dc48d40-ee20-437c-847f-840f2ff37031",
+            "name": "cond_is_follow_state",
+            "category": "condition",
+            "title": "是追击状态",
+            "description": "cond_is_follow_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": -768
+            }
+          },
+          "e6f46ddf-6e29-4e1d-84c7-8c92da308eac": {
+            "id": "e6f46ddf-6e29-4e1d-84c7-8c92da308eac",
+            "name": "action_gen_follow_path",
+            "category": "action",
+            "title": "生成追击路径",
+            "description": "action_gen_follow_path",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": -684
+            }
+          },
+          "f5a390e2-448d-4ac4-8ee0-46dc8a3f438d": {
+            "id": "f5a390e2-448d-4ac4-8ee0-46dc8a3f438d",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": -552
+            },
+            "children": [
+              "e6f46ddf-6e29-4e1d-84c7-8c92da308eac",
+              "712ca795-c133-40ed-91cb-41da5fee5cfd"
+            ]
+          },
+          "0d305947-d369-425f-afad-99685f795907": {
+            "id": "0d305947-d369-425f-afad-99685f795907",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "action_move_grid",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -504
+            }
+          },
+          "92535e4c-4ad5-44e0-8476-a818a49c91c8": {
+            "id": "92535e4c-4ad5-44e0-8476-a818a49c91c8",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "cond_is_empty_grid\n\n格子是否视为空地",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -600
+            }
+          },
+          "ae1a65b4-e5aa-4dcd-832f-6115f42f63e7": {
+            "id": "ae1a65b4-e5aa-4dcd-832f-6115f42f63e7",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": -504
+            },
+            "children": [
+              "92535e4c-4ad5-44e0-8476-a818a49c91c8",
+              "0d305947-d369-425f-afad-99685f795907",
+              "898c1882-9c88-43c5-a140-8881560685ee"
+            ]
+          },
+          "712ca795-c133-40ed-91cb-41da5fee5cfd": {
+            "id": "712ca795-c133-40ed-91cb-41da5fee5cfd",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": -420
+            },
+            "children": [
+              "ae1a65b4-e5aa-4dcd-832f-6115f42f63e7",
+              "fbe12ae8-5f2c-48a2-b121-390f4101228c"
+            ]
+          },
+          "fbe12ae8-5f2c-48a2-b121-390f4101228c": {
+            "id": "fbe12ae8-5f2c-48a2-b121-390f4101228c",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": -336
+            }
+          },
+          "898c1882-9c88-43c5-a140-8881560685ee": {
+            "id": "898c1882-9c88-43c5-a140-8881560685ee",
+            "name": "action_become_attack_state",
+            "category": "action",
+            "title": "变为攻击状态",
+            "description": "action_become_attack_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -420
+            }
+          },
+          "35a73f8d-822e-4ed3-9325-cdf81e055aff": {
+            "id": "35a73f8d-822e-4ed3-9325-cdf81e055aff",
+            "name": "cond_is_dodge_state",
+            "category": "condition",
+            "title": "是闪避状态",
+            "description": "cond_is_dodge_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": -240
+            }
+          },
+          "b87accbe-de53-48ed-8d04-00b38f011d1f": {
+            "id": "b87accbe-de53-48ed-8d04-00b38f011d1f",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -36,
+              "y": -84
+            },
+            "children": [
+              "35a73f8d-822e-4ed3-9325-cdf81e055aff",
+              "b102e055-3c5b-4d85-8a47-e83c2da48669"
+            ]
+          },
+          "3a5022e3-aeb0-46c7-9a5f-c6ba4723caa4": {
+            "id": "3a5022e3-aeb0-46c7-9a5f-c6ba4723caa4",
+            "name": "action_gen_dodge_path",
+            "category": "action",
+            "title": "生成闪避路径",
+            "description": "action_gen_dodge_path",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": -156
+            }
+          },
+          "b102e055-3c5b-4d85-8a47-e83c2da48669": {
+            "id": "b102e055-3c5b-4d85-8a47-e83c2da48669",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 180,
+              "y": 84
+            },
+            "children": [
+              "3a5022e3-aeb0-46c7-9a5f-c6ba4723caa4",
+              "3ade82aa-f346-42a1-98d5-8f83f4725e29"
+            ]
+          },
+          "386d60a0-0519-4cac-886d-ada12cc3cca3": {
+            "id": "386d60a0-0519-4cac-886d-ada12cc3cca3",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "action_move_grid",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": 24
+            }
+          },
+          "d9f5c404-680d-4ad6-9a76-f9506596c39c": {
+            "id": "d9f5c404-680d-4ad6-9a76-f9506596c39c",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "cond_is_empty_grid\n\n格子是否视为空地",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": -72
+            }
+          },
+          "9bb8d6ff-a5eb-41b3-b823-d421426e99fa": {
+            "id": "9bb8d6ff-a5eb-41b3-b823-d421426e99fa",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": 96
+            },
+            "children": [
+              "d9f5c404-680d-4ad6-9a76-f9506596c39c",
+              "386d60a0-0519-4cac-886d-ada12cc3cca3",
+              "1184ab7a-01ef-4223-861c-0d15f52498bf"
+            ]
+          },
+          "3ade82aa-f346-42a1-98d5-8f83f4725e29": {
+            "id": "3ade82aa-f346-42a1-98d5-8f83f4725e29",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 384,
+              "y": 324
+            },
+            "children": [
+              "9bb8d6ff-a5eb-41b3-b823-d421426e99fa",
+              "1598f87b-b905-4cb3-855d-f25d2a9f4c9d"
+            ]
+          },
+          "1598f87b-b905-4cb3-855d-f25d2a9f4c9d": {
+            "id": "1598f87b-b905-4cb3-855d-f25d2a9f4c9d",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 588,
+              "y": 552
+            }
+          },
+          "df33cba6-e278-4f2a-89e3-d6e4592a240a": {
+            "id": "df33cba6-e278-4f2a-89e3-d6e4592a240a",
+            "name": "cond_is_hp_lower",
+            "category": "condition",
+            "title": "是血量过低",
+            "description": "cond_is_hp_lower\n\n角色血量过低",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1212,
+              "y": 108
+            }
+          },
+          "8922197a-a122-4256-b711-47d2ae927bf8": {
+            "id": "8922197a-a122-4256-b711-47d2ae927bf8",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1008,
+              "y": 204
+            },
+            "children": [
+              "df33cba6-e278-4f2a-89e3-d6e4592a240a",
+              "d99c104e-b668-41b8-8037-48f0862d0a4a"
+            ]
+          },
+          "ccdd225b-640b-4b57-8217-29dc8e5a86c6": {
+            "id": "ccdd225b-640b-4b57-8217-29dc8e5a86c6",
+            "name": "Succeeder",
+            "category": "action",
+            "title": "Succeeder",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1632,
+              "y": 288
+            }
+          },
+          "1184ab7a-01ef-4223-861c-0d15f52498bf": {
+            "id": "1184ab7a-01ef-4223-861c-0d15f52498bf",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 804,
+              "y": 336
+            },
+            "children": [
+              "8922197a-a122-4256-b711-47d2ae927bf8",
+              "646e226d-bee5-4c88-8798-16eacd541719"
+            ]
+          },
+          "646e226d-bee5-4c88-8798-16eacd541719": {
+            "id": "646e226d-bee5-4c88-8798-16eacd541719",
+            "name": "action_become_attack_state",
+            "category": "action",
+            "title": "变为攻击状态",
+            "description": "action_become_attack_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1008,
+              "y": 456
+            }
+          },
+          "8892c743-1229-49d5-88e5-2f89863f9dad": {
+            "id": "8892c743-1229-49d5-88e5-2f89863f9dad",
+            "name": "cond_has_guard_attack_target",
+            "category": "condition",
+            "title": "警戒范围内有目标",
+            "description": "cond_has_guard_attack_target\n\n确认警戒范围内是否有敌对目标",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1632,
+              "y": 192
+            }
+          },
+          "48430379-39e6-48d5-8a70-bde590166098": {
+            "id": "48430379-39e6-48d5-8a70-bde590166098",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1428,
+              "y": 240
+            },
+            "children": [
+              "8892c743-1229-49d5-88e5-2f89863f9dad",
+              "ccdd225b-640b-4b57-8217-29dc8e5a86c6"
+            ]
+          },
+          "d99c104e-b668-41b8-8037-48f0862d0a4a": {
+            "id": "d99c104e-b668-41b8-8037-48f0862d0a4a",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1212,
+              "y": 312
+            },
+            "children": [
+              "48430379-39e6-48d5-8a70-bde590166098",
+              "f26c7529-81e8-4ee8-aec1-9c922249b073"
+            ]
+          },
+          "f26c7529-81e8-4ee8-aec1-9c922249b073": {
+            "id": "f26c7529-81e8-4ee8-aec1-9c922249b073",
+            "name": "action_become_recover_state",
+            "category": "action",
+            "title": "变为恢复状态",
+            "description": "action_become_recover_state\n\n休息10秒钟恢复满血",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1428,
+              "y": 372
+            }
+          }
+        },
+        "display": {
+          "camera_x": 732,
+          "camera_y": 480.5,
+          "camera_z": 0.75,
+          "x": -444,
+          "y": -24
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "bd474055-6156-432c-8eb7-35ccfda33d1f",
+        "title": "高频",
+        "description": "",
+        "group": "Default",
+        "root": "018a120f-15fb-454c-8480-e385e7172257",
+        "properties": {},
+        "nodes": {
+          "018a120f-15fb-454c-8480-e385e7172257": {
+            "id": "018a120f-15fb-454c-8480-e385e7172257",
+            "name": "comp_switch_state",
+            "category": "composite",
+            "title": "切换状态",
+            "description": "comp_switch_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -228,
+              "y": 72
+            },
+            "children": [
+              "eb522933-c7a0-46cb-82dd-761432dc0823",
+              "cb06c421-16c0-4a99-9bbb-68b8f8bfdeaf",
+              "88cd959f-1920-425c-87c5-dc0288297be5",
+              "7ec74ba1-eafb-4b17-bafb-d5683ca8d3c3",
+              "f193caa6-e9cf-4e4b-88a8-c90ddac8de10",
+              "1fa9fab7-f990-4a73-83cd-c12d32651458"
+            ]
+          },
+          "eb522933-c7a0-46cb-82dd-761432dc0823": {
+            "id": "eb522933-c7a0-46cb-82dd-761432dc0823",
+            "name": "b2b3be4b-abac-4e36-984b-81dcca2c4aa2",
+            "category": "tree",
+            "title": "空闲状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -24,
+              "y": -156
+            }
+          },
+          "cb06c421-16c0-4a99-9bbb-68b8f8bfdeaf": {
+            "id": "cb06c421-16c0-4a99-9bbb-68b8f8bfdeaf",
+            "name": "02314d25-9d44-4033-8d3d-e70dad533d94",
+            "category": "tree",
+            "title": "攻击状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -24,
+              "y": -60
+            }
+          },
+          "f193caa6-e9cf-4e4b-88a8-c90ddac8de10": {
+            "id": "f193caa6-e9cf-4e4b-88a8-c90ddac8de10",
+            "name": "afb46dad-f592-4eed-84bd-ac5dbb7dfecf",
+            "category": "tree",
+            "title": "寻宝状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -24,
+              "y": 204
+            }
+          },
+          "1fa9fab7-f990-4a73-83cd-c12d32651458": {
+            "id": "1fa9fab7-f990-4a73-83cd-c12d32651458",
+            "name": "afb46dad-f592-4eed-84bd-ac5dbb7dfecf",
+            "category": "tree",
+            "title": "寻宝状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -24,
+              "y": 288
+            }
+          },
+          "7ec74ba1-eafb-4b17-bafb-d5683ca8d3c3": {
+            "id": "7ec74ba1-eafb-4b17-bafb-d5683ca8d3c3",
+            "name": "b048ddfc-fad6-4c9b-bf26-4cf416ae4351",
+            "category": "tree",
+            "title": "闪避状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -24,
+              "y": 108
+            }
+          },
+          "88cd959f-1920-425c-87c5-dc0288297be5": {
+            "id": "88cd959f-1920-425c-87c5-dc0288297be5",
+            "name": "45da0785-9612-4c8a-9719-f9b5d1e73814",
+            "category": "tree",
+            "title": "追击状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": -24,
+              "y": 24
+            }
+          }
+        },
+        "display": {
+          "camera_x": 960,
+          "camera_y": 528.5,
+          "camera_z": 1,
+          "x": -432,
+          "y": 72
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "afb46dad-f592-4eed-84bd-ac5dbb7dfecf",
+        "title": "寻宝状态",
+        "description": "",
+        "group": "Default",
+        "root": "2417c154-470d-47ef-8623-a8e03fc8188a",
+        "properties": {},
+        "nodes": {
+          "9069bd79-03a4-4cea-bd72-e55e14ea7e24": {
+            "id": "9069bd79-03a4-4cea-bd72-e55e14ea7e24",
+            "name": "action_gen_box_path",
+            "category": "action",
+            "title": "生成宝箱路径",
+            "description": "action_gen_box_path\n\n取宝箱周围 1 圈最近的点，生成行走路径",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -192
+            }
+          },
+          "2417c154-470d-47ef-8623-a8e03fc8188a": {
+            "id": "2417c154-470d-47ef-8623-a8e03fc8188a",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "9069bd79-03a4-4cea-bd72-e55e14ea7e24",
+              "28635465-3e9e-477e-b1c8-cabee4635fd6"
+            ]
+          },
+          "3e9ea0f0-7267-454a-80f1-c31ab61671ae": {
+            "id": "3e9ea0f0-7267-454a-80f1-c31ab61671ae",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 24
+            },
+            "children": [
+              "f8610c00-aa7e-49a1-8bb3-86e38e01df5d",
+              "47ab91b9-d482-4b2c-98a4-fc6ffa154777",
+              "5fababdd-8b5e-40ef-8762-8445a3a7381e"
+            ]
+          },
+          "28635465-3e9e-477e-b1c8-cabee4635fd6": {
+            "id": "28635465-3e9e-477e-b1c8-cabee4635fd6",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 180
+            },
+            "children": [
+              "3e9ea0f0-7267-454a-80f1-c31ab61671ae",
+              "d70c2466-cc7c-4f5a-b9ec-3b1b3d947324"
+            ]
+          },
+          "f8610c00-aa7e-49a1-8bb3-86e38e01df5d": {
+            "id": "f8610c00-aa7e-49a1-8bb3-86e38e01df5d",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "cond_is_empty_grid\n\n格子是否视为空地",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": -108
+            }
+          },
+          "47ab91b9-d482-4b2c-98a4-fc6ffa154777": {
+            "id": "47ab91b9-d482-4b2c-98a4-fc6ffa154777",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "action_move_grid",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": -12
+            }
+          },
+          "d70c2466-cc7c-4f5a-b9ec-3b1b3d947324": {
+            "id": "d70c2466-cc7c-4f5a-b9ec-3b1b3d947324",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 336
+            }
+          },
+          "8617277f-b3e9-4a2d-a840-df4cf797e7d1": {
+            "id": "8617277f-b3e9-4a2d-a840-df4cf797e7d1",
+            "name": "cond_is_arrive_target",
+            "category": "condition",
+            "title": "已抵达目的地",
+            "description": "cond_is_arrive_target",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 72
+            }
+          },
+          "12a2baf3-2707-4c47-9005-3d5cf2533afd": {
+            "id": "12a2baf3-2707-4c47-9005-3d5cf2533afd",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 120
+            },
+            "children": [
+              "8617277f-b3e9-4a2d-a840-df4cf797e7d1",
+              "377c3f7d-a2de-4dec-8c47-be3e2038ed96"
+            ]
+          },
+          "5fababdd-8b5e-40ef-8762-8445a3a7381e": {
+            "id": "5fababdd-8b5e-40ef-8762-8445a3a7381e",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 180
+            },
+            "children": [
+              "12a2baf3-2707-4c47-9005-3d5cf2533afd",
+              "85196842-e13f-44a3-afc9-9b2b3c17b9d2"
+            ]
+          },
+          "85196842-e13f-44a3-afc9-9b2b3c17b9d2": {
+            "id": "85196842-e13f-44a3-afc9-9b2b3c17b9d2",
+            "name": "Runner",
+            "category": "action",
+            "title": "Runner",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 252
+            }
+          },
+          "377c3f7d-a2de-4dec-8c47-be3e2038ed96": {
+            "id": "377c3f7d-a2de-4dec-8c47-be3e2038ed96",
+            "name": "action_become_unlock_state",
+            "category": "action",
+            "title": "变为解锁状态",
+            "description": "action_become_unlock_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 156
+            }
+          }
+        },
+        "display": {
+          "camera_x": 443,
+          "camera_y": 536.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "e83e03fa-7d6c-4cf1-94d4-6c4b231ccd86",
+        "title": "恢复状态",
+        "description": "",
+        "group": "Default",
+        "root": "34c7653d-36e2-4cbb-9878-1c8e72f3ce26",
+        "properties": {},
+        "nodes": {
+          "3b673f74-4dcf-437c-bb3e-26450c33665a": {
+            "id": "3b673f74-4dcf-437c-bb3e-26450c33665a",
+            "name": "action_wait_recover",
+            "category": "action",
+            "title": "等待休息恢复",
+            "description": "action_wait_recover\n\n休息一段时间，恢复所有血量",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -48
+            }
+          },
+          "34c7653d-36e2-4cbb-9878-1c8e72f3ce26": {
+            "id": "34c7653d-36e2-4cbb-9878-1c8e72f3ce26",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "3b673f74-4dcf-437c-bb3e-26450c33665a",
+              "46fa5960-c512-45e6-85f1-269f9d2c373f"
+            ]
+          },
+          "46fa5960-c512-45e6-85f1-269f9d2c373f": {
+            "id": "46fa5960-c512-45e6-85f1-269f9d2c373f",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 36
+            }
+          }
+        },
+        "display": {
+          "camera_x": 960,
+          "camera_y": 528.5,
+          "camera_z": 1,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "02314d25-9d44-4033-8d3d-e70dad533d94",
+        "title": "攻击状态",
+        "description": "",
+        "group": "Default",
+        "root": "882f88d8-40ea-4e18-896c-2f9ec2b6de62",
+        "properties": {},
+        "nodes": {
+          "307d14c9-d3c5-4181-818d-0d9fe80d9998": {
+            "id": "307d14c9-d3c5-4181-818d-0d9fe80d9998",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": -192
+            },
+            "children": [
+              "48051bdd-b792-40a1-84b2-aa7400ef56e1",
+              "393ad6da-0b10-4c99-898b-a2fbac370929"
+            ]
+          },
+          "882f88d8-40ea-4e18-896c-2f9ec2b6de62": {
+            "id": "882f88d8-40ea-4e18-896c-2f9ec2b6de62",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "99165cb3-9efa-4c35-8fe9-a05480c9ba00",
+              "d38babff-9943-49ef-885f-e0334ffb1c31"
+            ]
+          },
+          "204cc86f-61d8-4131-9496-1dc318bd7908": {
+            "id": "204cc86f-61d8-4131-9496-1dc318bd7908",
+            "name": "cond_target_in_attack_range",
+            "category": "condition",
+            "title": "目标在攻击范围内",
+            "description": "cond_target_in_attack_range\n\n确认目标是否存活，且是否在攻击范围内",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": -348
+            }
+          },
+          "48051bdd-b792-40a1-84b2-aa7400ef56e1": {
+            "id": "48051bdd-b792-40a1-84b2-aa7400ef56e1",
+            "name": "cond_is_skill_ready",
+            "category": "condition",
+            "title": "技能已准备",
+            "description": "cond_is_skill_ready",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": -252
+            }
+          },
+          "e7382a90-36d7-44ec-9796-4bcc26f90b44": {
+            "id": "e7382a90-36d7-44ec-9796-4bcc26f90b44",
+            "name": "action_attack_target",
+            "category": "action",
+            "title": "攻击目标",
+            "description": "action_attack_target\n\n攻击一次目标，并设置冷却时间",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": -168
+            }
+          },
+          "b4cfb3e7-a683-4506-8424-0d2062cff8dc": {
+            "id": "b4cfb3e7-a683-4506-8424-0d2062cff8dc",
+            "name": "action_become_dodge_state",
+            "category": "action",
+            "title": "变为闪避状态",
+            "description": "action_become_dodge_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 12
+            }
+          },
+          "99165cb3-9efa-4c35-8fe9-a05480c9ba00": {
+            "id": "99165cb3-9efa-4c35-8fe9-a05480c9ba00",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -216
+            },
+            "children": [
+              "204cc86f-61d8-4131-9496-1dc318bd7908",
+              "e1aa2259-723b-486c-889f-3a96071eabdb"
+            ]
+          },
+          "e1aa2259-723b-486c-889f-3a96071eabdb": {
+            "id": "e1aa2259-723b-486c-889f-3a96071eabdb",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": -96
+            },
+            "children": [
+              "307d14c9-d3c5-4181-818d-0d9fe80d9998",
+              "b4cfb3e7-a683-4506-8424-0d2062cff8dc"
+            ]
+          },
+          "ade8a0ce-2a95-48ce-8090-ea57ed6e7f7f": {
+            "id": "ade8a0ce-2a95-48ce-8090-ea57ed6e7f7f",
+            "name": "action_become_follow_state",
+            "category": "action",
+            "title": "变为追击状态",
+            "description": "action_become_follow_state\n\n在安全攻击范围内追击目标",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 180
+            }
+          },
+          "d53967bd-0975-4c76-ba33-0ad810d1b067": {
+            "id": "d53967bd-0975-4c76-ba33-0ad810d1b067",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 144
+            },
+            "children": [
+              "b78394a7-9e50-4974-bf4d-96bfd8dee829",
+              "ade8a0ce-2a95-48ce-8090-ea57ed6e7f7f"
+            ]
+          },
+          "d38babff-9943-49ef-885f-e0334ffb1c31": {
+            "id": "d38babff-9943-49ef-885f-e0334ffb1c31",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 204
+            },
+            "children": [
+              "d53967bd-0975-4c76-ba33-0ad810d1b067",
+              "ffab0fb8-b72c-43c5-88c2-668154519909"
+            ]
+          },
+          "ffab0fb8-b72c-43c5-88c2-668154519909": {
+            "id": "ffab0fb8-b72c-43c5-88c2-668154519909",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 276
+            }
+          },
+          "b78394a7-9e50-4974-bf4d-96bfd8dee829": {
+            "id": "b78394a7-9e50-4974-bf4d-96bfd8dee829",
+            "name": "cond_is_target_guard_range",
+            "category": "condition",
+            "title": "目标在警戒范围内",
+            "description": "cond_is_target_guard_range",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 96
+            }
+          },
+          "4fde0990-dad0-4b55-91a3-e8003c4fadbe": {
+            "id": "4fde0990-dad0-4b55-91a3-e8003c4fadbe",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": -84
+            }
+          },
+          "393ad6da-0b10-4c99-898b-a2fbac370929": {
+            "id": "393ad6da-0b10-4c99-898b-a2fbac370929",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": -120
+            },
+            "children": [
+              "e7382a90-36d7-44ec-9796-4bcc26f90b44",
+              "4fde0990-dad0-4b55-91a3-e8003c4fadbe"
+            ]
+          }
+        },
+        "display": {
+          "camera_x": 454,
+          "camera_y": 660.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "b2b3be4b-abac-4e36-984b-81dcca2c4aa2",
+        "title": "空闲状态",
+        "description": "",
+        "group": "Default",
+        "root": "abcb46d5-d7a3-489f-829b-ce3140bf6be8",
+        "properties": {},
+        "nodes": {
+          "088f922a-5c2f-4c26-876f-6690143f6d0c": {
+            "id": "088f922a-5c2f-4c26-876f-6690143f6d0c",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 120
+            },
+            "children": [
+              "7d3cea1b-a6c9-40a4-9ac2-6b2aac176fe9",
+              "023c8e31-2a0b-4fe2-8120-5a659ab4edf3"
+            ]
+          },
+          "5dff317e-9d38-4f03-a1be-be6d1007324b": {
+            "id": "5dff317e-9d38-4f03-a1be-be6d1007324b",
+            "name": "cond_has_other_box",
+            "category": "condition",
+            "title": "有待寻找宝箱",
+            "description": "cond_has_other_box\n\n是否还有其他带解锁宝箱",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 0
+            }
+          },
+          "023c8e31-2a0b-4fe2-8120-5a659ab4edf3": {
+            "id": "023c8e31-2a0b-4fe2-8120-5a659ab4edf3",
+            "name": "action_victory",
+            "category": "action",
+            "title": "胜利",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 180
+            }
+          },
+          "7d3cea1b-a6c9-40a4-9ac2-6b2aac176fe9": {
+            "id": "7d3cea1b-a6c9-40a4-9ac2-6b2aac176fe9",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 48
+            },
+            "children": [
+              "5dff317e-9d38-4f03-a1be-be6d1007324b",
+              "d926e56e-7208-4f54-8d72-0c792927d58f"
+            ]
+          },
+          "d926e56e-7208-4f54-8d72-0c792927d58f": {
+            "id": "d926e56e-7208-4f54-8d72-0c792927d58f",
+            "name": "action_become_search_state",
+            "category": "action",
+            "title": "变为寻宝状态",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 96
+            }
+          },
+          "fb46830e-be1e-4b7b-bfdc-476df7562a0b": {
+            "id": "fb46830e-be1e-4b7b-bfdc-476df7562a0b",
+            "name": "cond_is_hp_lower",
+            "category": "condition",
+            "title": "是血量过低",
+            "description": "cond_is_hp_lower\n\n角色血量过低",
+            "group": "Default",
+            "properties": {
+              "threshold": 60
+            },
+            "display": {
+              "x": 624,
+              "y": -168
+            }
+          },
+          "23ab6183-32b4-4752-9c7b-6234f8a0722d": {
+            "id": "23ab6183-32b4-4752-9c7b-6234f8a0722d",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -132
+            },
+            "children": [
+              "fb46830e-be1e-4b7b-bfdc-476df7562a0b",
+              "4d1ec8a6-cce1-4480-bc46-018aea136acf"
+            ]
+          },
+          "4d1ec8a6-cce1-4480-bc46-018aea136acf": {
+            "id": "4d1ec8a6-cce1-4480-bc46-018aea136acf",
+            "name": "action_become_recover_state",
+            "category": "action",
+            "title": "变为恢复状态",
+            "description": "action_become_recover_state\n\n休息10秒钟恢复满血",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": -84
+            }
+          },
+          "abcb46d5-d7a3-489f-829b-ce3140bf6be8": {
+            "id": "abcb46d5-d7a3-489f-829b-ce3140bf6be8",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "23ab6183-32b4-4752-9c7b-6234f8a0722d",
+              "088f922a-5c2f-4c26-876f-6690143f6d0c"
+            ]
+          }
+        },
+        "display": {
+          "camera_x": 545,
+          "camera_y": 628.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "4cd86044-6c5b-40e6-8584-73bd4a4679b5",
+        "title": "解锁状态",
+        "description": "",
+        "group": "Default",
+        "root": "4eb7c13f-aaed-44a3-b5aa-83fd09119c00",
+        "properties": {},
+        "nodes": {
+          "4eb7c13f-aaed-44a3-b5aa-83fd09119c00": {
+            "id": "4eb7c13f-aaed-44a3-b5aa-83fd09119c00",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "a99b5e63-4734-4d38-a33e-5df0b91992d1",
+              "5a86fd4d-f5bf-41c6-8f06-6654e04757e6"
+            ]
+          },
+          "a99b5e63-4734-4d38-a33e-5df0b91992d1": {
+            "id": "a99b5e63-4734-4d38-a33e-5df0b91992d1",
+            "name": "action_unlock_box",
+            "category": "action",
+            "title": "解锁宝箱",
+            "description": "action_unlock_box\n\n解锁一次宝箱",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -48
+            }
+          },
+          "5a86fd4d-f5bf-41c6-8f06-6654e04757e6": {
+            "id": "5a86fd4d-f5bf-41c6-8f06-6654e04757e6",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 36
+            }
+          }
+        },
+        "display": {
+          "camera_x": 600,
+          "camera_y": 569.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "b048ddfc-fad6-4c9b-bf26-4cf416ae4351",
+        "title": "闪避状态",
+        "description": "",
+        "group": "Default",
+        "root": "cdd42a66-59e3-4b5f-a55c-613cf97f7bd5",
+        "properties": {},
+        "nodes": {
+          "a6c83d84-1ffb-4bde-806f-3660d8e341b9": {
+            "id": "a6c83d84-1ffb-4bde-806f-3660d8e341b9",
+            "name": "action_gen_dodge_path",
+            "category": "action",
+            "title": "生成闪避路径",
+            "description": "action_gen_dodge_path",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -240
+            }
+          },
+          "cdd42a66-59e3-4b5f-a55c-613cf97f7bd5": {
+            "id": "cdd42a66-59e3-4b5f-a55c-613cf97f7bd5",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "a6c83d84-1ffb-4bde-806f-3660d8e341b9",
+              "0383918f-6be0-4da4-98ca-f130064eb8db"
+            ]
+          },
+          "00613aee-b573-47a4-8d0d-13325e43f50f": {
+            "id": "00613aee-b573-47a4-8d0d-13325e43f50f",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "action_move_grid",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": -72
+            }
+          },
+          "511e70fe-a39c-4ca8-8b28-f58f594ad7b8": {
+            "id": "511e70fe-a39c-4ca8-8b28-f58f594ad7b8",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "cond_is_empty_grid\n\n格子是否视为空地",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": -156
+            }
+          },
+          "f70997fb-b4df-4f97-87af-dcc5b8a4f247": {
+            "id": "f70997fb-b4df-4f97-87af-dcc5b8a4f247",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 12
+            },
+            "children": [
+              "511e70fe-a39c-4ca8-8b28-f58f594ad7b8",
+              "00613aee-b573-47a4-8d0d-13325e43f50f",
+              "0e208d9e-7a5b-401c-8851-26e14d45dc53"
+            ]
+          },
+          "0383918f-6be0-4da4-98ca-f130064eb8db": {
+            "id": "0383918f-6be0-4da4-98ca-f130064eb8db",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 228
+            },
+            "children": [
+              "f70997fb-b4df-4f97-87af-dcc5b8a4f247",
+              "365b88da-8afc-4b60-8ca0-67403e09c1fa"
+            ]
+          },
+          "365b88da-8afc-4b60-8ca0-67403e09c1fa": {
+            "id": "365b88da-8afc-4b60-8ca0-67403e09c1fa",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 456
+            }
+          },
+          "63d8a65b-3de9-4ba9-8639-5f77ecaef362": {
+            "id": "63d8a65b-3de9-4ba9-8639-5f77ecaef362",
+            "name": "cond_is_hp_lower",
+            "category": "condition",
+            "title": "是血量过低",
+            "description": "cond_is_hp_lower\n\n角色血量过低",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 24
+            }
+          },
+          "a758a80b-9370-4dfe-8dc3-9c4c136b7a2f": {
+            "id": "a758a80b-9370-4dfe-8dc3-9c4c136b7a2f",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 120
+            },
+            "children": [
+              "63d8a65b-3de9-4ba9-8639-5f77ecaef362",
+              "2733fcf8-0bc0-448c-8302-b544f709af28"
+            ]
+          },
+          "8c0941aa-d7d2-4860-8160-a7c8bb85a4e9": {
+            "id": "8c0941aa-d7d2-4860-8160-a7c8bb85a4e9",
+            "name": "Succeeder",
+            "category": "action",
+            "title": "Succeeder",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1656,
+              "y": 192
+            }
+          },
+          "0e208d9e-7a5b-401c-8851-26e14d45dc53": {
+            "id": "0e208d9e-7a5b-401c-8851-26e14d45dc53",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 240
+            },
+            "children": [
+              "a758a80b-9370-4dfe-8dc3-9c4c136b7a2f",
+              "ced09367-aa5b-4105-857f-3496b774e9c5"
+            ]
+          },
+          "ced09367-aa5b-4105-857f-3496b774e9c5": {
+            "id": "ced09367-aa5b-4105-857f-3496b774e9c5",
+            "name": "action_become_attack_state",
+            "category": "action",
+            "title": "变为攻击状态",
+            "description": "action_become_attack_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1032,
+              "y": 372
+            }
+          },
+          "c7822d46-3534-43f1-8cc4-6850ac933b9b": {
+            "id": "c7822d46-3534-43f1-8cc4-6850ac933b9b",
+            "name": "cond_has_guard_attack_target",
+            "category": "condition",
+            "title": "警戒范围内有目标",
+            "description": "cond_has_guard_attack_target\n\n确认警戒范围内是否有敌对目标",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1656,
+              "y": 108
+            }
+          },
+          "7074298f-9beb-4649-8671-5f8cdaab83dc": {
+            "id": "7074298f-9beb-4649-8671-5f8cdaab83dc",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1452,
+              "y": 156
+            },
+            "children": [
+              "c7822d46-3534-43f1-8cc4-6850ac933b9b",
+              "8c0941aa-d7d2-4860-8160-a7c8bb85a4e9"
+            ]
+          },
+          "2733fcf8-0bc0-448c-8302-b544f709af28": {
+            "id": "2733fcf8-0bc0-448c-8302-b544f709af28",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1248,
+              "y": 216
+            },
+            "children": [
+              "7074298f-9beb-4649-8671-5f8cdaab83dc",
+              "ef3ecf6e-d8b4-43e8-843f-fde4fba82578"
+            ]
+          },
+          "ef3ecf6e-d8b4-43e8-843f-fde4fba82578": {
+            "id": "ef3ecf6e-d8b4-43e8-843f-fde4fba82578",
+            "name": "action_become_recover_state",
+            "category": "action",
+            "title": "变为恢复状态",
+            "description": "action_become_recover_state\n\n休息10秒钟恢复满血",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 1452,
+              "y": 288
+            }
+          }
+        },
+        "display": {
+          "camera_x": 280,
+          "camera_y": 527.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "tree",
+        "id": "45da0785-9612-4c8a-9719-f9b5d1e73814",
+        "title": "追击状态",
+        "description": "",
+        "group": "Default",
+        "root": "fe6e28a7-489e-4edf-9560-53a5f208d658",
+        "properties": {},
+        "nodes": {
+          "5a7238a5-c909-4199-88d1-ba549109a684": {
+            "id": "5a7238a5-c909-4199-88d1-ba549109a684",
+            "name": "action_gen_follow_path",
+            "category": "action",
+            "title": "生成追击路径",
+            "description": "action_gen_follow_path",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": -132
+            }
+          },
+          "fe6e28a7-489e-4edf-9560-53a5f208d658": {
+            "id": "fe6e28a7-489e-4edf-9560-53a5f208d658",
+            "name": "MemSequence",
+            "category": "composite",
+            "title": "MemSequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 204,
+              "y": 0
+            },
+            "children": [
+              "5a7238a5-c909-4199-88d1-ba549109a684",
+              "87486478-a2f5-4e72-8229-724166ec13b6"
+            ]
+          },
+          "6bb07c30-272b-43df-85cc-ee64151eb85a": {
+            "id": "6bb07c30-272b-43df-85cc-ee64151eb85a",
+            "name": "action_move_grid",
+            "category": "action",
+            "title": "移动一格",
+            "description": "action_move_grid",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 36
+            }
+          },
+          "3e4591b3-0b31-4df9-8e5c-a0ba0ba1d447": {
+            "id": "3e4591b3-0b31-4df9-8e5c-a0ba0ba1d447",
+            "name": "cond_is_empty_grid",
+            "category": "condition",
+            "title": "是可移动格子",
+            "description": "cond_is_empty_grid\n\n格子是否视为空地",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": -48
+            }
+          },
+          "72896e77-1d73-4515-805f-34a728fe2889": {
+            "id": "72896e77-1d73-4515-805f-34a728fe2889",
+            "name": "Sequence",
+            "category": "composite",
+            "title": "Sequence",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 36
+            },
+            "children": [
+              "3e4591b3-0b31-4df9-8e5c-a0ba0ba1d447",
+              "6bb07c30-272b-43df-85cc-ee64151eb85a",
+              "da3c281e-7822-4a31-8cf2-b662bbfd688b"
+            ]
+          },
+          "87486478-a2f5-4e72-8229-724166ec13b6": {
+            "id": "87486478-a2f5-4e72-8229-724166ec13b6",
+            "name": "Priority",
+            "category": "composite",
+            "title": "Priority",
+            "description": "",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 408,
+              "y": 132
+            },
+            "children": [
+              "72896e77-1d73-4515-805f-34a728fe2889",
+              "5fccdb5c-4de7-4724-81ad-f5cfa7676a2b"
+            ]
+          },
+          "5fccdb5c-4de7-4724-81ad-f5cfa7676a2b": {
+            "id": "5fccdb5c-4de7-4724-81ad-f5cfa7676a2b",
+            "name": "action_become_idle_state",
+            "category": "action",
+            "title": "变为空闲状态",
+            "description": "action_become_idle_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 624,
+              "y": 216
+            }
+          },
+          "da3c281e-7822-4a31-8cf2-b662bbfd688b": {
+            "id": "da3c281e-7822-4a31-8cf2-b662bbfd688b",
+            "name": "action_become_attack_state",
+            "category": "action",
+            "title": "变为攻击状态",
+            "description": "action_become_attack_state",
+            "group": "Default",
+            "properties": {},
+            "display": {
+              "x": 828,
+              "y": 132
+            }
+          }
+        },
+        "display": {
+          "camera_x": 463,
+          "camera_y": 556.5,
+          "camera_z": 0.75,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "custom_nodes": [
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_victory",
+        "category": "action",
+        "title": "胜利",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_search_state",
+        "category": "action",
+        "title": "变为寻宝状态",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_unlock_state",
+        "category": "action",
+        "title": "变为解锁状态",
+        "group": null,
+        "description": "action_become_unlock_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_move_state",
+        "category": "action",
+        "title": "变为移动状态",
+        "group": null,
+        "description": "action_become_move_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_dodge_state",
+        "category": "action",
+        "title": "变为闪避状态",
+        "group": null,
+        "description": "action_become_dodge_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_move_grid",
+        "category": "action",
+        "title": "移动一格",
+        "group": null,
+        "description": "action_move_grid",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_unlock_box",
+        "category": "action",
+        "title": "解锁宝箱",
+        "group": null,
+        "description": "action_unlock_box\n\n解锁一次宝箱",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_idle_state",
+        "category": "action",
+        "title": "变为空闲状态",
+        "group": null,
+        "description": "action_become_idle_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_attack_target",
+        "category": "action",
+        "title": "攻击目标",
+        "group": null,
+        "description": "action_attack_target\n\n攻击一次目标，并设置冷却时间",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_gen_box_path",
+        "category": "action",
+        "title": "生成宝箱路径",
+        "group": null,
+        "description": "action_gen_box_path\n\n取宝箱周围 1 圈最近的点，生成行走路径",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_confirm_attack_target",
+        "category": "action",
+        "title": "确认攻击目标",
+        "group": null,
+        "description": "action_confirm_attack_target\n\n选取警戒范围内的敌对目标，设为攻击目标",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_attack_state",
+        "category": "action",
+        "title": "变为攻击状态",
+        "group": null,
+        "description": "action_become_attack_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_follow_state",
+        "category": "action",
+        "title": "变为追击状态",
+        "group": null,
+        "description": "action_become_follow_state\n\n在安全攻击范围内追击目标",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_target_in_attack_range",
+        "category": "condition",
+        "title": "目标在攻击范围内",
+        "group": null,
+        "description": "cond_target_in_attack_range\n\n确认目标是否存活，且是否在攻击范围内",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_idle_state",
+        "category": "condition",
+        "title": "是空闲状态",
+        "group": null,
+        "description": "cond_is_idle_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_dodge_state",
+        "category": "condition",
+        "title": "是闪避状态",
+        "group": null,
+        "description": "cond_is_dodge_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_unlock_state",
+        "category": "condition",
+        "title": "是解锁状态",
+        "group": null,
+        "description": "cond_is_unlock_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_attack_state",
+        "category": "condition",
+        "title": "是攻击状态",
+        "group": null,
+        "description": "cond_is_attack_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_arrive_target",
+        "category": "condition",
+        "title": "已抵达目的地",
+        "group": null,
+        "description": "cond_is_arrive_target",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_has_guard_attack_target",
+        "category": "condition",
+        "title": "警戒范围内有目标",
+        "group": null,
+        "description": "cond_has_guard_attack_target\n\n确认警戒范围内是否有敌对目标",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_has_box",
+        "category": "condition",
+        "title": "当前位置有宝箱",
+        "group": null,
+        "description": "cond_has_box\n\n确认角色周围1圈是否有可解锁宝箱",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_search_state",
+        "category": "condition",
+        "title": "是寻宝状态",
+        "group": null,
+        "description": "cond_is_search_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_follow_state",
+        "category": "condition",
+        "title": "是追击状态",
+        "group": null,
+        "description": "cond_is_follow_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_has_attack_target",
+        "category": "condition",
+        "title": "已有攻击目标",
+        "group": null,
+        "description": "cond_has_attack_target",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_target_guard_range",
+        "category": "condition",
+        "title": "目标在警戒范围内",
+        "group": null,
+        "description": "cond_is_target_guard_range",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_skill_ready",
+        "category": "condition",
+        "title": "技能已准备",
+        "group": null,
+        "description": "cond_is_skill_ready",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_move_state",
+        "category": "condition",
+        "title": "是移动状态",
+        "group": null,
+        "description": "cond_is_move_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_has_other_box",
+        "category": "condition",
+        "title": "有待寻找宝箱",
+        "group": null,
+        "description": "cond_has_other_box\n\n是否还有其他带解锁宝箱",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_empty_grid",
+        "category": "condition",
+        "title": "是可移动格子",
+        "group": null,
+        "description": "cond_is_empty_grid\n\n格子是否视为空地",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_erase_attack_target",
+        "category": "action",
+        "title": "清理攻击目标",
+        "group": null,
+        "description": "action_erase_attack_target",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_hp_lower",
+        "category": "condition",
+        "title": "是血量过低",
+        "group": null,
+        "description": "cond_is_hp_lower\n\n角色血量过低",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_gen_dodge_path",
+        "category": "action",
+        "title": "生成闪避路径",
+        "group": null,
+        "description": null,
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_gen_follow_path",
+        "category": "action",
+        "title": "生成追击路径",
+        "group": null,
+        "description": "action_gen_follow_path",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_set_attack_target",
+        "category": "action",
+        "title": "设置攻击目标",
+        "group": null,
+        "description": "action_set_attack_target\n\n设置攻击目标，如果已有目标则不更换",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_lost",
+        "category": "action",
+        "title": "失败",
+        "group": null,
+        "description": "action_lost",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_be_hit_hurt",
+        "category": "action",
+        "title": "受击伤害",
+        "group": null,
+        "description": "action_be_hit_hurt",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_died",
+        "category": "condition",
+        "title": "已死亡",
+        "group": null,
+        "description": "cond_is_died",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_become_recover_state",
+        "category": "action",
+        "title": "变为恢复状态",
+        "group": null,
+        "description": "action_become_recover_state\n\n休息10秒钟恢复满血",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "cond_is_recover_state",
+        "category": "condition",
+        "title": "是恢复状态",
+        "group": null,
+        "description": "cond_is_recover_state",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "action_wait_recover",
+        "category": "action",
+        "title": "等待休息恢复",
+        "group": null,
+        "description": "action_wait_recover\n\n休息一段时间，恢复所有血量",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "comp_switch_state",
+        "category": "composite",
+        "title": "切换状态",
+        "group": null,
+        "description": "comp_switch_state",
+        "properties": {}
+      }
+    ]
+  },
+  "path": "Z:\\rogue_adventure\\priv\\behavior_tree\\rogue_ai.b3"
+}
