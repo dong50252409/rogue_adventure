@@ -3,6 +3,10 @@ rogue_adventure
 
 一个小游戏，使用 [behavior3editor](https://github.com/behavior3/behavior3editor) 编辑生成行为树
 
+PPT
+====
+https://note.youdao.com/s/WfuU9P70
+
 Version
 -----
 Eralng/OTP 22
